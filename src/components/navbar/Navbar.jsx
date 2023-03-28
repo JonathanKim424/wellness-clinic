@@ -2,12 +2,15 @@ import React, { useState } from 'react';
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
 import './navbar.css';
 import logo from '../../assets/jk-logo_white1.png';
+import { Link } from 'react-router-dom';
 
 const Menu = () => (
     <>
-    <p><a href='#home'>Home</a></p>
-    <p><a href='#services'>Services</a></p>
-    <p><a href='contact'>Contact</a></p>
+        <Link as={Link} to="/"><span>Home</span></Link>
+        {/* <p><a href='#home'>Home</a></p> */}
+        <Link as={Link} to="/services"><span>Services</span></Link>
+        {/* <p><a href='#services'>Services</a></p> */}
+        <p><a href='contact'>Contact</a></p>
     </>
 )
 
