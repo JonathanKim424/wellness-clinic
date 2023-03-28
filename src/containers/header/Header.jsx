@@ -5,7 +5,8 @@ const Header = () => {
     return (
         <div className='wellness__header' id='home'>
             <div>
-                Hi there! This is the wellness clinic!
+                <p>Welcome to Circuit Works Wellness</p>
+                <p>We are offering vitamin injections, IV therapy, cold plunge and infrared therapy</p>
             </div>
         </div>
     )

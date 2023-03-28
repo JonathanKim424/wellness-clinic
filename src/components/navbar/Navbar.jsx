@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
 import './navbar.css';
-import logo from '../../assets/jk-logo_white1.png';
+import logo from '../../assets/logo.png';
 import { Link } from 'react-router-dom';
 
 const Menu = () => (
     <>
-        <Link as={Link} to="/"><span>Home</span></Link>
         <Link as={Link} to="/services"><span>Services</span></Link>
+        <Link as={Link} to="/pricing"><span>Pricing</span></Link>
         <Link as={Link} to="/contact"><span>Contact</span></Link>
     </>
 )
@@ -18,7 +18,7 @@ const Navbar = () => {
         <div className='wellness__navbar'>
             <div className='wellness__navbar-links'>
                 <div className='wellness__navbar-links_logo'>
-                    <img src={logo} alt='logo' />
+                    <Link as={Link} to="/"><img src={logo} alt='logo' /></Link>
                 </div>
                 <div className='wellness__navbar-links_container'>
                     <Menu />

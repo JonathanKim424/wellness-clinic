@@ -3,7 +3,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 0 6rem;
-    background-color: #082D63;
+    background-color: white;
     height: 4rem;
 }
 
@@ -19,8 +19,8 @@
 }
 
 .wellness__navbar-links_logo img {
-    width: 100px;
-    height: 100px;
+    width: 60px;
+    height: 60px;
 }
 
 .wellness__navbar-links_container {
@@ -30,10 +30,10 @@
 
 .wellness__navbar-links_container span,
 .wellness__navbar-menu_container span {
-    color: #fff;
+    color: brown;
     font-family: var(--font-family);
-    font-weight: 500;
-    font-size: 18px;
+    font-weight: 900;
+    font-size: 20px;
     line-height: 25px;
     text-transform: capitalize;
     margin: 0 1rem;
