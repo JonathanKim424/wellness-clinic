@@ -1,3 +1,7 @@
 .wellness__footer {
     display: flex;
 }
+
+.wellness__footer-icons {
+    color: white;
+}
