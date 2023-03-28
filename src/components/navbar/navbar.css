@@ -28,8 +28,8 @@
     flex-direction: row;
 }
 
-.wellness__navbar-links_container p,
-.wellness__navbar-menu_container p {
+.wellness__navbar-links_container span,
+.wellness__navbar-menu_container span {
     color: #fff;
     font-family: var(--font-family);
     font-weight: 500;
