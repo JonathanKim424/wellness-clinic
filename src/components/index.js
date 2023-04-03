@@ -1,2 +1,3 @@
 export { default as Navbar } from './navbar/Navbar';
-export { default as HomeServices } from './homeServices/HomeServices';
+export { default as HomeServicesLeft } from './homeServicesLeft/HomeServicesLeft';
+export { default as HomeServicesRight } from './homeServicesRight/HomeServicesRight';
