@@ -6,9 +6,15 @@ import { Link } from 'react-router-dom';
 
 const Menu = () => (
     <>
-        <Link as={Link} to="/services"><span>Services</span></Link>
-        <Link as={Link} to="/pricing"><span>Pricing</span></Link>
-        <Link as={Link} to="/contact"><span>Contact</span></Link>
+        <div>
+            <Link as={Link} to="/services"><span>Services</span></Link>
+        </div>
+        <div>
+            <Link as={Link} to="/about"><span>About</span></Link>
+        </div>
+        <div>
+            <Link as={Link} to="/contact"><span>Contact</span></Link>
+        </div>
     </>
 )
 
@@ -26,8 +32,8 @@ const Navbar = () => {
             </div>
             <div className='wellness__navbar-menu'>
                 {toggleMenu
-                    ? <RiCloseLine color='#fff' size={27} onClick={() => setToggleMenu(false)} />
-                    : <RiMenu3Line color='#fff' size={27} onClick={() => setToggleMenu(true)} />
+                    ? <RiCloseLine color='#A52A2A' size={27} onClick={() => setToggleMenu(false)} />
+                    : <RiMenu3Line color='#A52A2A' size={27} onClick={() => setToggleMenu(true)} />
                 }
                 {toggleMenu && (
                     <div className='wellness__navbar-menu_container scale-up-center'>

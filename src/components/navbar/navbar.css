@@ -3,7 +3,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 0 6rem;
-    background-color: white;
+    background-color: var(--color-primary);
     height: 4rem;
 }
 
@@ -30,7 +30,7 @@
 
 .wellness__navbar-links_container span,
 .wellness__navbar-menu_container span {
-    color: brown;
+    color: var(--color-text);
     font-family: var(--font-family);
     font-weight: 900;
     font-size: 20px;
@@ -41,7 +41,7 @@
     padding: 0.4rem 0.7rem;
 }
 
-.wellness__navbar-links_container p:hover {
+.wellness__navbar-links_container span:hover {
     background-color: rgba(0,0,0,0.5);
 }
 
@@ -75,4 +75,28 @@
 
 .wellness__navbar-menu_container p {
     margin: 1rem 0;
+}
+
+@media screen and (max-width: 957px) {
+    .wellness__navbar-links_container {
+        display: none;
+    }
+    .wellness__navbar-menu {
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 700x) {
+    .wellness__navbar {
+        padding: 2rem 4rem;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .wellness__navbar {
+        padding: 2rem;
+    }
+    .wellness__navbar-menu_container {
+        top: 20px;
+    }
 }

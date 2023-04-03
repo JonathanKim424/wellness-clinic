@@ -3,7 +3,7 @@ import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Navbar } from './components';
 import { Footer } from './containers';
-import { Homepage, Services, Pricing, Contact } from './pages';
+import { Homepage, Services, Contact, About } from './pages';
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Homepage />}/>
           <Route path="/services" element={<Services />}/>
-          <Route path="/pricing" element={<Pricing />}/>
+          <Route path="/about" element={<About />}/>
           <Route path="/contact" element={<Contact />}/>
         </Routes>
         <div className='gradient__bg'>
