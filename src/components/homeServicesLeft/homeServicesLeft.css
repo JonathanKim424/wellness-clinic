@@ -1,0 +1,23 @@
+.wellness__homeServicesLeft {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem 5rem;
+    height: 100%;
+}
+
+.wellness__homeServicesLeft-img {
+    width: 50rem;
+}
+
+.wellness__homeServicesLeft-img img {
+    border-radius: 2rem;
+    max-width: 100%;
+    height: auto;
+    max-height: 30rem;
+    margin: auto;
+}
+
+.wellness__homeServicesLeft-text {
+    width: 50rem;
+    margin: auto 2rem;
+}

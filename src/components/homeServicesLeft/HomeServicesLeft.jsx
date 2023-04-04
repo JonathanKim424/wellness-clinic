@@ -2,10 +2,18 @@ import React from 'react';
 import './homeServicesLeft.css';
 
 function HomeServicesLeft(props) {
+    const image = props.image;
     const services = props.services;
+    const description = props.description;
     return (
         <div className='wellness__homeServicesLeft'>
-            <p>This is a left side section for {services}.</p>
+            <div className='wellness__homeServicesLeft-img'>
+                <img src={image} alt={services} />
+            </div>
+            <div className='wellness__homeServicesLeft-text'>
+                <h1>{services}</h1>
+                <p>{description}</p>
+            </div>
         </div>
     )
 }
