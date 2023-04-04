@@ -12,15 +12,25 @@
 }
 
 .wellness__header-text {
-    position: absolute;
-    top: 30%;
+    height: 100%;
     width: 100%;
-    text-align: center;
-    text-shadow: 1px 1px 3px black, 1px 1px 3px black, 1px 1px 3px black, 1px 1px 3px black;
+    text-shadow: 1px 1px 4px black, 1px 1px 4px black, 1px 1px 4px black, 1px 1px 4px black;
     font-weight: 800;
+    color: white;
+}
+
+.wellness__header-text_h1 {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: 30%;
     font-size: 3rem;
 }
 
-.wellness__header-text p {
-    color: white;
+.wellness__header-text_h3 {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: 45%;
+    font-size: 2rem;
 }
