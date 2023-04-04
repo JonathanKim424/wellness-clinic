@@ -5,13 +5,15 @@ import { Header } from '../../containers';
 
 function Homepage() {
     return (
-        <div className='Homepage'>
-            <div className='gradient__bg'>
+        <div className='wellness__homepage'>
+            <div className='wellness__homepage-bg'>
                 <Header />
-                <p>Services</p>
-                <HomeServicesLeft services="Infrared Sauna" />
-                <HomeServicesRight services="Cold Plunge" />
-                <HomeServicesLeft services="IV Therapy and Vitamin Injections" />
+                <div className='wellness__homepage-services'>
+                    <h1>Services</h1>
+                    <HomeServicesLeft services="Infrared Sauna" />
+                    <HomeServicesRight services="Cold Plunge" />
+                    <HomeServicesLeft services="IV Therapy and Vitamin Injections" />
+                </div>
             </div>
         </div>
     )

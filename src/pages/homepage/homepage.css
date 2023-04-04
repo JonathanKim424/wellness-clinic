@@ -1,0 +1,8 @@
+.wellness__homepage-bg {
+    background-color: var(--color-secondary);
+}
+
+.wellness__homepage-services h1 {
+    color: var(--color-text);
+    padding-top: 1rem;
+}
