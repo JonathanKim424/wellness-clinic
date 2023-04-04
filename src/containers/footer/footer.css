@@ -1,7 +1,19 @@
 .wellness__footer {
-    display: flex;
 }
 
 .wellness__footer-icons {
-    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: var(--color-primary);
+    font-size: 1.5rem;
+}
+
+.wellness__footer-icons a {
+    padding: 0.5rem 0.5rem;
+}
+
+.wellness__footer-copyright {
+    width: 100%;
+    padding-bottom: 1rem;
 }
