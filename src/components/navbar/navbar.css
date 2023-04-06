@@ -41,6 +41,32 @@
     padding: 0.4rem 0.7rem;
 }
 
+.wellness__navbar-links_container-services {
+    display: none;
+    position: absolute;
+    top: 52px;
+    margin-left: 1rem;
+    padding: 0.5rem;
+    background-color: var(--color-secondary);
+    border-radius: 0.5rem;
+    min-width: 15rem;
+    z-index: 1;
+    text-align: left;
+}
+
+.wellness__navbar-links_container-services p {
+    color: var(--color-text);
+    font-weight: 600;
+}
+
+.wellness__navbar-links_container_services:hover .wellness__navbar-links_container-services {
+    display: block;
+}
+
+.wellness__navbar-links_container_services:hover span {
+    background-color: rgba(0,0,0,0.5);
+}
+
 .wellness__navbar-links_container span:hover {
     background-color: rgba(0,0,0,0.5);
 }

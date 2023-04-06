@@ -6,8 +6,11 @@ import { Link } from 'react-router-dom';
 
 const Menu = () => (
     <>
-        <div>
+        <div className='wellness__navbar-links_container_services'>
             <Link as={Link} to="/services"><span>Services</span></Link>
+            <div className='wellness__navbar-links_container-services'>
+                <ServiceMenu />
+            </div>
         </div>
         <div>
             <Link as={Link} to="/about"><span>About</span></Link>
@@ -15,6 +18,14 @@ const Menu = () => (
         <div>
             <Link as={Link} to="/contact"><span>Contact</span></Link>
         </div>
+    </>
+)
+
+const ServiceMenu = () => (
+    <>
+        <p>Infrared Sauna</p>
+        <p>Cold Plunge</p>
+        <p>IV Therapy and Vitamin Injections</p>
     </>
 )
 
