@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.2e10d3ee.css",
-    "main.js": "/static/js/main.f0338cce.js",
-    "static/js/787.f1684c0c.chunk.js": "/static/js/787.f1684c0c.chunk.js",
-    "static/media/infrared_sauna.jpg": "/static/media/infrared_sauna.88eaa61c5c37ab82ea00.jpg",
-    "static/media/iv_therapy.jpg": "/static/media/iv_therapy.a96c60128ca320afced3.jpg",
-    "static/media/cold_plunge.jpg": "/static/media/cold_plunge.773eecfb49b6d98441ed.jpg",
-    "static/media/logo.png": "/static/media/logo.e71043fd6eeca0a1b9dd.png",
-    "static/media/header.jpg": "/static/media/header.2fd93f1879209f591e11.jpg",
-    "static/media/profile.jpg": "/static/media/profile.ab0e1654f312fb72d099.jpg",
-    "index.html": "/index.html",
-    "main.2e10d3ee.css.map": "/static/css/main.2e10d3ee.css.map",
-    "main.f0338cce.js.map": "/static/js/main.f0338cce.js.map",
-    "787.f1684c0c.chunk.js.map": "/static/js/787.f1684c0c.chunk.js.map"
+    "main.css": "/wellness-clinic/static/css/main.2e10d3ee.css",
+    "main.js": "/wellness-clinic/static/js/main.c66de433.js",
+    "static/js/787.f1684c0c.chunk.js": "/wellness-clinic/static/js/787.f1684c0c.chunk.js",
+    "static/media/infrared_sauna.jpg": "/wellness-clinic/static/media/infrared_sauna.88eaa61c5c37ab82ea00.jpg",
+    "static/media/iv_therapy.jpg": "/wellness-clinic/static/media/iv_therapy.a96c60128ca320afced3.jpg",
+    "static/media/cold_plunge.jpg": "/wellness-clinic/static/media/cold_plunge.773eecfb49b6d98441ed.jpg",
+    "static/media/logo.png": "/wellness-clinic/static/media/logo.e71043fd6eeca0a1b9dd.png",
+    "static/media/header.jpg": "/wellness-clinic/static/media/header.2fd93f1879209f591e11.jpg",
+    "static/media/profile.jpg": "/wellness-clinic/static/media/profile.ab0e1654f312fb72d099.jpg",
+    "index.html": "/wellness-clinic/index.html",
+    "main.2e10d3ee.css.map": "/wellness-clinic/static/css/main.2e10d3ee.css.map",
+    "main.c66de433.js.map": "/wellness-clinic/static/js/main.c66de433.js.map",
+    "787.f1684c0c.chunk.js.map": "/wellness-clinic/static/js/787.f1684c0c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2e10d3ee.css",
-    "static/js/main.f0338cce.js"
+    "static/js/main.c66de433.js"
   ]
 }
