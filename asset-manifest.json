@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/wellness-clinic/static/css/main.2e10d3ee.css",
-    "main.js": "/wellness-clinic/static/js/main.c66de433.js",
+    "main.js": "/wellness-clinic/static/js/main.cd99ebf9.js",
     "static/js/787.f1684c0c.chunk.js": "/wellness-clinic/static/js/787.f1684c0c.chunk.js",
     "static/media/infrared_sauna.jpg": "/wellness-clinic/static/media/infrared_sauna.88eaa61c5c37ab82ea00.jpg",
     "static/media/iv_therapy.jpg": "/wellness-clinic/static/media/iv_therapy.a96c60128ca320afced3.jpg",
@@ -11,11 +11,11 @@
     "static/media/profile.jpg": "/wellness-clinic/static/media/profile.ab0e1654f312fb72d099.jpg",
     "index.html": "/wellness-clinic/index.html",
     "main.2e10d3ee.css.map": "/wellness-clinic/static/css/main.2e10d3ee.css.map",
-    "main.c66de433.js.map": "/wellness-clinic/static/js/main.c66de433.js.map",
+    "main.cd99ebf9.js.map": "/wellness-clinic/static/js/main.cd99ebf9.js.map",
     "787.f1684c0c.chunk.js.map": "/wellness-clinic/static/js/787.f1684c0c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2e10d3ee.css",
-    "static/js/main.c66de433.js"
+    "static/js/main.cd99ebf9.js"
   ]
 }
