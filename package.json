@@ -1,6 +1,7 @@
 {
   "name": "wellness-clinic",
   "version": "0.1.0",
+  "homepage": "https://jonathankim424.github.io/wellness-clinic/",
   "private": true,
   "dependencies": {
     "@react-google-maps/api": "^2.18.1",
