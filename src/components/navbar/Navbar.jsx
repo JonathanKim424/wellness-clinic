@@ -2,7 +2,8 @@ import React, { useState } from 'react';
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
 import './navbar.css';
 import logo from '../../assets/logo.png';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
+import { HashLink as Link } from 'react-router-hash-link';
 
 const Menu = () => (
     <>
@@ -23,9 +24,9 @@ const Menu = () => (
 
 const ServiceMenu = () => (
     <>
-        <p>Infrared Sauna</p>
-        <p>Cold Plunge</p>
-        <p>IV Therapy and Vitamin Injections</p>
+        <Link as={Link} to="/services#sauna"><p>Infrared Sauna</p></Link>
+        <Link as={Link} to="/services#cold"><p>Cold Plunge</p></Link>
+        <Link as={Link} to="/services/#iv"><p>IV Therapy and Vitamin Injections</p></Link>
     </>
 )
 

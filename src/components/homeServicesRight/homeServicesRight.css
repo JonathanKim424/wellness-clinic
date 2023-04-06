@@ -3,11 +3,16 @@
     justify-content: space-evenly;
     padding: 2rem 5rem;
     height: 100%;
+    background-color: var(--color-secondary);
 }
 
 .wellness__homeServicesRight-text {
     width: 50rem;
     margin: auto 2rem;
+}
+
+.wellness__homeServicesRight-text h1 {
+    color: var(--color-text);
 }
 
 .wellness__homeServicesRight-img {

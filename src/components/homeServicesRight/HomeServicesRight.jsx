@@ -1,8 +1,10 @@
 import React from 'react';
 import './homeServicesRight.css';
+import { HashLink as Link } from 'react-router-hash-link';
 
 function HomeServicesRight(props) {
     const image = props.image;
+    const linkhash = "/services#" + props.link;
     const services = props.services;
     const description = props.description;
     return (
@@ -12,7 +14,7 @@ function HomeServicesRight(props) {
                 <p>{description}</p>
             </div>
             <div className='wellness__homeServicesRight-img'>
-                <img src={image} alt={services} />
+                <Link as={Link} to={linkhash}><img src={image} alt={services} /></Link>
             </div>
         </div>
     )
