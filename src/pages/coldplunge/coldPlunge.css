@@ -1,12 +1,15 @@
 .wellness__coldplunge {
     display: flex;
     justify-content: center;
+    align-items: center;
     background-color: var(--color-secondary);
     padding: 3rem 0;
 }
 
 .wellness__coldplunge-img {
-    padding-right: 5rem;
+    flex: 1;
+    padding-right: 3rem;
+    text-align: right;
 }
 
 .wellness__coldplunge-img img{
@@ -15,7 +18,8 @@
 }
 
 .wellness__coldplunge-text {
-    padding: 2rem;
+    flex: 1;
+    padding: 3rem;
     text-align: left;
     color: var(--color-text);
     font-size: 1.5rem;

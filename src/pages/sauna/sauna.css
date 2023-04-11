@@ -1,0 +1,25 @@
+.wellness__sauna {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-secondary);
+    padding: 3rem 0;
+}
+
+.wellness__sauna-img {
+    flex: 1;
+    padding-right: 5rem;
+}
+
+.wellness__sauna-img img {
+    height: auto;
+    max-width: 20rem;
+}
+
+.wellness__sauna-text {
+    flex: 1;
+    padding: 2rem;
+    text-align: left;
+    color: var(--color-text);
+    font-size: 1.5rem;
+}

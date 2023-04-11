@@ -1,0 +1,26 @@
+.wellness__vitaminivtherapy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-secondary);
+    padding: 3rem 0;
+}
+
+.wellness__vitaminivtherapy-img {
+    flex: 1;
+    padding-right: 3rem;
+    text-align: right;
+}
+
+.wellness__vitaminivtherapy-img img {
+    height: auto;
+    max-width: 20rem;
+}
+
+.wellness__vitaminivtherapy-text {
+    flex: 1;
+    padding: 2rem;
+    text-align: left;
+    color: var(--color-text);
+    font-size: 1.5rem;
+}
