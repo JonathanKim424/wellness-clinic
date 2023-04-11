@@ -1,40 +1,47 @@
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    scroll-behavior: smooth;
+.wellness__contact_header {
+    padding: 2rem 6rem;
+    background-color: var(--color-secondary);
 }
 
-body {
-    background: var(--color-bg);
+.wellness__contact_header h1 {
+    color: var(--color-text);
+    text-align: left;
+    padding-bottom: 1rem;
 }
 
-a {
-    color: unset;
-    text-decoration: none;
+.wellness__contact_header p {
+    color: black;
+    text-align: left;
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
 }
 
-.gradient__bg {
-    /* ff 3.6+ */
-    background:-moz-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
-
-    /* safari 5.1+,chrome 10+ */
-    background:-webkit-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
-
-    /* opera 11.10+ */
-    background:-o-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
-
-    /* ie 10+ */
-    background:-ms-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
-
-    /* global 92%+ browsers support */
-    background:radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
+.wellness__contact_header-book a {
+    border: var(--color-text) 0.2rem solid;
+    padding: 0.5rem;
+    color: var(--color-text);
+    font-size: 1.5rem;
 }
 
-.Contact {
-    text-align: center;
+.wellness__contact_header-info {
+    display: flex;
+    background-color: var(--color-tertiary);
+    height: 40rem;
 }
 
-p {
-    color: white;
+.wellness__contact_header-info_map {
+    width: 60%;
+    margin: 2rem 15rem;
+}
+
+.wellness__contact_header-info_text {
+    width: 40%;
+    margin: auto;
+    padding-right: 2rem;
+    text-align: left;
+}
+
+.wellness__contact_header-info_text p {
+    font-size: 1.5rem;
+    padding: 0.5rem;
 }
