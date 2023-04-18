@@ -9,6 +9,7 @@ function About() {
                 <img src={profile} alt="Profile" />
             </div>
             <div className='wellness__about-text'>
+                <h1>Dr. Christine Kim</h1>
                 <p>
                     Dr. Christine Kim completed her residency at
                     Cedars-Sinai Medical Center and is board certified
