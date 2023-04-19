@@ -45,10 +45,9 @@
     display: none;
     position: absolute;
     top: 52px;
-    margin-left: 1rem;
-    padding: 0.5rem;
+    margin-left: 1.7rem;
+    padding: 0.5rem 1rem;
     background-color: var(--color-secondary);
-    border-radius: 0.5rem;
     min-width: 15rem;
     z-index: 1;
     text-align: left;
@@ -57,26 +56,29 @@
 .wellness__navbar-links_container-services p {
     color: var(--color-text);
     font-weight: 600;
+    padding: 0.3rem 0;
+}
+
+.wellness__navbar-links_container-services p:hover {
+    color: black;
+    text-shadow: 0.03rem 0.03rem 0.05rem black;
 }
 
 .wellness__navbar-links_container_services:hover .wellness__navbar-links_container-services {
     display: block;
 }
 
-.wellness__navbar-links_container_services:hover span {
-    background-color: rgba(0,0,0,0.5);
-}
-
 .wellness__navbar-links_container span:hover {
-    background-color: rgba(0,0,0,0.5);
+    /* color: rgba(16,81,166,0.1); */
+    color: black;
+    text-shadow: 0.03rem 0.03rem 0.05rem black;
 }
 
 .wellness__navbar-links_book {
-    border: 0.2rem solid black;
-    border-radius: 0.3rem;
+    border: 0.2rem solid var(--color-text);
     font-size: 1.5rem;
-    background-color: var(--color-text);
-    color: var(--color-primary);
+    font-weight: 600;
+    color: var(--color-text);
     padding: 0 0.5rem;
     margin-left: 1rem;
 }

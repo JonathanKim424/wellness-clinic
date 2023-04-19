@@ -3,7 +3,7 @@ import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Navbar } from './components';
 import { Footer } from './containers';
-import { Homepage, Services, Contact, About } from './pages';
+import { Homepage, Sauna, ColdPlunge, VitaminIvTherapy, Contact, About } from './pages';
 
 function App() {
   return (
@@ -14,7 +14,9 @@ function App() {
         </div>
         <Routes>
           <Route path="/" element={<Homepage />}/>
-          <Route path="/services" element={<Services />}/>
+          <Route path="/sauna" element={<Sauna />}/>
+          <Route path="/coldplunge" element={<ColdPlunge />}/>
+          <Route path="/vitaminivtherapy" element={<VitaminIvTherapy />}/>
           <Route path="/about" element={<About />}/>
           <Route path="/contact" element={<Contact />}/>
         </Routes>

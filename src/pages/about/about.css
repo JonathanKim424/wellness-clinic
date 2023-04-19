@@ -20,11 +20,35 @@
 .wellness__about-text {
     width: 50rem;
     margin: auto;
+    animation-name: slidein;
+    animation-duration: 1.5s;
+}
+
+.wellness__about-text h1 {
+    color: var(--color-text);
+    text-align: left;
+    font-weight: 600;
+    font-size: 3rem;
+    padding-bottom: 1rem;
 }
 
 .wellness__about-text p {
-    color: var(--color-text);
-    font-size: 2rem;
-    font-weight: 600;
+    color: black;
+    font-size: 1.4rem;
+    padding-left: 0.2rem;
     text-align: left;
+}
+
+@keyframes slidein {
+    from {
+        transform: translate3d(0,5rem,0);
+        opacity: 0;
+    }
+    20% {
+        transform: translate3d(0,5rem,0);
+        opacity: 0;
+    }
+    to {
+        transform: translate3d(0,0,0);
+    }
 }

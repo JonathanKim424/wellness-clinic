@@ -28,7 +28,7 @@ function Homepage() {
                     <HomeServicesLeft
                         image={ivTherapy}
                         link="iv"
-                        services="IV Therapy and Vitamin Injections"
+                        services="IV Therapy/Vitamin Injections"
                         description="We, at Circuit Works Wellness, want to ensure your safety with all our treatments. We require lab work (within the past 6 months) prior to receiving any IV therapy or vitamin injections. You are welcome to provide lab work done with your primary doctor/outside facility or you can schedule lab work to be done with us. If you want to schedule lab work, please click on the provided link below and come fasting (nothing to eat or drink except for water, coffee or tea without cream or sugar after midnight)."
                     />
                 </div>
