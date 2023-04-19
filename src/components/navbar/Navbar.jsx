@@ -26,7 +26,7 @@ const ServiceMenu = () => (
     <>
         <Link as={Link} to="/sauna"><p>Infrared Sauna</p></Link>
         <Link as={Link} to="/coldplunge"><p>Cold Plunge</p></Link>
-        <Link as={Link} to="/vitaminivtherapy"><p>IV Therapy and Vitamin Injections</p></Link>
+        <Link as={Link} to="/vitaminivtherapy"><p>IV Therapy/Vitamin Injections</p></Link>
     </>
 )
 

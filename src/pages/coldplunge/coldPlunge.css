@@ -1,26 +1,44 @@
 .wellness__coldplunge {
-    display: flex;
-    justify-content: center;
     align-items: center;
     background-color: var(--color-secondary);
-    padding: 3rem 0;
 }
 
-.wellness__coldplunge-img {
-    flex: 1;
-    padding-right: 3rem;
-    text-align: right;
+.wellness__coldplunge-header {
+    position: relative;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 50% 80%;
+    width: 100%;
+    height: 50vh;
 }
 
-.wellness__coldplunge-img img{
-    height: auto;
-    max-width: 20rem;
+.wellness__coldplunge-header h1 {
+    position: absolute;
+    top: 50%;
+    height: 100%;
+    width: 100%;
+    text-shadow: 1px 1px 4px black, 1px 1px 4px black, 1px 1px 4px black, 1px 1px 4px black;
+    font-weight: 800;
+    font-size: 3rem;
+    color: var(--color-primary);
+    align-items: center;
 }
 
-.wellness__coldplunge-text {
-    flex: 1;
-    padding: 3rem;
-    text-align: left;
+.wellness__coldplunge-info {
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0;
+    width: 100%;
+}
+
+.wellness__coldplunge-info-text {
     color: var(--color-text);
+    text-align: left;
     font-size: 1.5rem;
+}
+
+.wellness__coldplunge-info-text li {
+    color: black;
 }

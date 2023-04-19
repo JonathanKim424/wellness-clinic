@@ -1,25 +1,62 @@
 .wellness__sauna {
-    display: flex;
-    justify-content: center;
     align-items: center;
     background-color: var(--color-secondary);
-    padding: 3rem 0;
 }
 
-.wellness__sauna-img {
-    flex: 1;
-    padding-right: 5rem;
+.wellness__sauna-header {
+    position: relative;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 50% 80%;
+    width: 100%;
+    height: 50vh;
 }
 
-.wellness__sauna-img img {
-    height: auto;
-    max-width: 20rem;
+.wellness__sauna-header h1 {
+    position: absolute;
+    top: 50%;
+    height: 100%;
+    width: 100%;
+    text-shadow: 1px 1px 4px black, 1px 1px 4px black, 1px 1px 4px black, 1px 1px 4px black;
+    font-weight: 800;
+    font-size: 3rem;
+    color: var(--color-primary);
+    align-items: center;
 }
 
-.wellness__sauna-text {
-    flex: 1;
-    padding: 2rem;
+.wellness__sauna-info {
+    display: flex;
+    justify-content: center;
+    padding: 2rem 10rem;
+    width: 100%;
+}
+
+.wellness__sauna-info-text {
     text-align: left;
     color: var(--color-text);
     font-size: 1.5rem;
+}
+
+.wellness__sauna-info-text h3 {
+    padding: 1rem 0;
+}
+
+.wellness__sauna-info-text p {
+    color: black;
+}
+
+.wellness__sauna-promotion {
+    width: 50%;
+    border: solid 0.2rem brown;
+    padding: 0.5rem;
+}
+
+.wellness__sauna-promotion h1 {
+    font-size: 2.5rem;
+}
+
+.wellness__sauna-promotion h2 {
+    font-size: 2rem;
 }
