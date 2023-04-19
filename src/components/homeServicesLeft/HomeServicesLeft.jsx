@@ -1,14 +1,19 @@
 import React from 'react';
 import './homeServicesLeft.css';
+import { useInView } from 'react-intersection-observer';
 import { HashLink as Link } from 'react-router-hash-link';
 
 function HomeServicesLeft(props) {
+    const { ref, inView } = useInView({
+        triggerOnce: true,
+        threshold: 0.2
+    });
     const image = props.image;
     const linkhash = "/services#" + props.link;
     const services = props.services;
     const description = props.description;
     return (
-        <div className='wellness__homeServicesLeft'>
+        <div ref={ref} className={`wellness__homeServicesLeft ${inView ? 'wellness__homeServicesLeft-animation' : 'wellness__homeServicesLeft-noView'}`}>
             <div className='wellness__homeServicesLeft-img'>
                 <Link as={Link} to={linkhash}><img src={image} alt={services} /></Link>
             </div>
@@ -17,7 +22,7 @@ function HomeServicesLeft(props) {
                 <p>{description}</p>
             </div>
         </div>
-    )
+    );
 }
 
 export default HomeServicesLeft
