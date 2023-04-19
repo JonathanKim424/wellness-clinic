@@ -39,7 +39,26 @@
     font-size: 1.5rem;
 }
 
+.wellness__vitaminivtherapy-info-text h1 {
+    font-size: 2.5rem;
+    padding: 1rem 0;
+}
+
+.wellness__vitaminivtherapy-info-text h2 {
+    font-size: 2rem;
+}
+
+.wellness__vitaminivtherapy-info-text p {
+    color: black;
+}
+
 .wellness__vitaminivtherapy-info-text-lower {
-    background-color: var(--color-text);
-    
+    margin: 2rem 5rem;
+    padding: 2rem;
+    border: 0.2rem solid black;
+    background-color: rgba(16,81,166,0.4);
+}
+
+.wellness__vitaminivtherapy-info-text-lower h3 {
+    font-size: 2.5rem;
 }
