@@ -6,7 +6,7 @@ import { HashLink as Link } from 'react-router-hash-link';
 function HomeServicesRight(props) {
     const { ref, inView } = useInView({
         triggerOnce: true,
-        threshold: 0.2
+        threshold: 0.12
     });
     const image = props.image;
     const linkhash = props.link;

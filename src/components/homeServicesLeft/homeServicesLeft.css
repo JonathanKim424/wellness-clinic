@@ -12,7 +12,7 @@
 
 .wellness__homeServicesLeft-animation {
     animation-name: slidein;
-    animation-duration: 1.5s;
+    animation-duration: 1.3s;
 }
 
 .wellness__homeServicesLeft-img {
@@ -36,12 +36,16 @@
     color: var(--color-text);
 }
 
+.wellness__homeServicesLeft-text p {
+    font-size: 1.5rem;
+}
+
 @keyframes slidein {
     from {
         transform: translate3d(0,5rem,0);
         opacity: 0;
     }
-    20% {
+    10% {
         transform: translate3d(0,5rem,0);
         opacity: 0;
     }
