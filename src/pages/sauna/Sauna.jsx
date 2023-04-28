@@ -9,13 +9,13 @@ function Sauna() {
                 <h1>Infrared Sauna</h1>
             </div>
             <div className='wellness__sauna-info'>
+                <div className='wellness__sauna-promotion'>
+                    <h1>Introduction Promo for contrast therapy:</h1>
+                    <h2>Infrared therapy and cold plunge</h2>
+                    <p>$39 for 30 minutes for members</p>
+                    <p>$49 for 30 minutes for non-members</p>
+                </div>
                 <div className='wellness__sauna-info-text'>
-                    <div className='wellness__sauna-promotion'>
-                        <h1>Introduction Promo for contrast therapy:</h1>
-                        <h2>Infrared therapy and cold plunge</h2>
-                        <p>$39 for 30 minutes for members</p>
-                        <p>$49 for 30 minutes for non-members</p>
-                    </div>
                     <h3>Is it safe for me to use the infrared sauna?</h3>
                     <p>Infrared saunas are very safe. They are safer than the traditional dry sauna. However, there is still the risk of dehydration and becoming overheated, therefore we recommend to ensure proper hydration. Pregnant women should avoid using saunas as the rise in body temperature may pose a risk to the baby.</p>
                     <h3>How often should I use the sauna?</h3>
