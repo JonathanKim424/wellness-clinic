@@ -27,18 +27,42 @@
 }
 
 .wellness__coldplunge-info {
-    display: flex;
-    justify-content: center;
-    padding: 2rem 0;
+    padding: 2rem 10rem;
     width: 100%;
+    color: var(--color-text);
 }
 
-.wellness__coldplunge-info-text {
-    color: var(--color-text);
-    text-align: left;
+.wellness__coldplunge-info p {
+    color: black;
+    font-size: 1.2rem;
+}
+
+.wellness__coldplunge-info-promotion {
+    width: auto;
+    padding: 0.5rem;
+}
+
+.wellness__coldplunge-info-promotion h1 {
+    font-size: 2rem;
+}
+
+.wellness__coldplunge-info-promotion h2 {
     font-size: 1.5rem;
 }
 
-.wellness__coldplunge-info-text li {
+.wellness__coldplunge-info-text {
+    text-align: left;
+}
+
+.wellness__coldplunge-info-text h3 {
+    padding: 1rem 0;
+    font-size: 1.5rem;
+}
+
+.wellness__coldplunge-info-text h4 {
+    font-size: 1.2rem;
+}
+
+.wellness__coldplunge-info-text p {
     color: black;
 }

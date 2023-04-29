@@ -21,7 +21,7 @@ function Homepage() {
                     />
                     <HomeServicesRight
                         image={coldPlunge}
-                        link="cold"
+                        link="coldplunge"
                         services="Cold Plunge"
                         description="Invigorate, boost your immunity and enhance your recovery and performance"
                     />

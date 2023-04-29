@@ -9,7 +9,7 @@ function Sauna() {
                 <h1>Infrared Sauna</h1>
             </div>
             <div className='wellness__sauna-info'>
-                <div className='wellness__sauna-promotion'>
+                <div className='wellness__sauna-info-promotion'>
                     <h1>Introduction Promo for contrast therapy:</h1>
                     <h2>Infrared therapy and cold plunge</h2>
                     <p>$39 for 30 minutes for members</p>
