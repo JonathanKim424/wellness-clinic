@@ -1,6 +1,7 @@
 import React from 'react';
 import './contact.css';
 import { GMap } from '../../components';
+import { book_url } from '../../index.js';
 
 function Contact() {
     return (
@@ -22,7 +23,7 @@ function Contact() {
                 </p>
                 <p>Book your appointment today!</p>
                 <div className='wellness__contact-header-book'>
-                    <a href="https://www.google.com" target="_blank" rel="noopener noreferrer">Book Now!</a>
+                    <a href={book_url} target="_blank" rel="noopener noreferrer">Book Now!</a>
                 </div>
             </div>
             <div className='wellness__contact-info'>
@@ -33,7 +34,7 @@ function Contact() {
                     <p>Circuit Works</p>
                     <p>1837 Lincoln Blvd</p>
                     <p>Santa Monica, CA 90404</p>
-                    <p>(213) 123-4567</p>
+                    <p>(209) 255-6830</p>
                     <p>email@email.com</p>
                 </div>
             </div>

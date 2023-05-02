@@ -1,5 +1,6 @@
 import React from 'react';
 import './vitaminIvTherapy.css';
+import { book_url } from '../../index.js';
 import image from '../../assets/iv_therapy.jpg';
 
 function VitaminIvTherapy() {
@@ -43,6 +44,9 @@ function VitaminIvTherapy() {
                         <h3>Is intravenous safe?</h3>
                         <p>There is a small risk given that it is a needle puncture. We follow sanitary procedures to minimize even the small risks. We never use expired products and assess our prepared bag and syringes for safety prior to administration.</p>
                     </div>
+                </div>
+                <div className='wellness__vitaminivtherapy-info-book'>
+                    <a href={book_url} target="_blank" rel="noopener noreferrer">Click here to book!</a>
                 </div>
             </div>
         </div>
