@@ -3,31 +3,16 @@ import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
 import './navbar.css';
 import { book_url } from '../../index.js';
 import logo from '../../assets/logo.png';
-// import { Link } from 'react-router-dom';
 import { HashLink as Link } from 'react-router-hash-link';
 
 const Menu = () => (
     <>
-        <div className='wellness__navbar-links_container_services'>
-            <span>Services</span>
-            <div className='wellness__navbar-links_container-services'>
-                <ServiceMenu />
-            </div>
-        </div>
         <div>
             <Link as={Link} to="/about"><span>About</span></Link>
         </div>
         <div>
             <Link as={Link} to="/contact"><span>Contact</span></Link>
         </div>
-    </>
-)
-
-const ServiceMenu = () => (
-    <>
-        <Link as={Link} to="/sauna"><p>Infrared Sauna</p></Link>
-        <Link as={Link} to="/coldplunge"><p>Cold Plunge</p></Link>
-        <Link as={Link} to="/vitaminivtherapy"><p>IV Therapy/Vitamin Injections</p></Link>
     </>
 )
 

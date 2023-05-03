@@ -1,8 +1,29 @@
-.wellness__homepage-bg {
+.wellness__homepage {
     background-color: var(--color-secondary);
+    color: var(--color-text);
+}
+
+.wellness__homepage-header {
+    padding: 2rem 0;
+}
+
+.wellness__homepage-services {
+    text-align: left;
+    padding: 0 5rem;
 }
 
 .wellness__homepage-services h1 {
-    color: var(--color-text);
-    padding-top: 1rem;
+    text-decoration: underline;
+}
+
+.wellness__homepage-services p {
+    color: black;
+}
+
+.wellness__homepage-services-sauna_body {
+    display: flex;
+}
+
+.wellness__homepage-services-sauna_body-left {
+    padding-right: 2rem;
 }
