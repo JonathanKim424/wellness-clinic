@@ -1,25 +1,9 @@
 .wellness__about {
-    display: flex;
-    justify-content: space-evenly;
-    height: 100%;
     padding: 5rem;
     background-color: var(--color-secondary);
 }
 
-.wellness__about-headshot {
-    width: 50rem;
-}
-
-.wellness__about-headshot img {
-    clip-path: ellipse(40% 40% at 45% 50%);
-    max-width: 100%;
-    height: auto;
-    margin: auto;
-}
-
 .wellness__about-text {
-    width: 50rem;
-    margin: auto;
     animation-name: slidein;
     animation-duration: 1.5s;
 }
@@ -50,5 +34,29 @@
     }
     to {
         transform: translate3d(0,0,0);
+    }
+}
+
+@media screen and (max-width: 510px) {
+    .wellness__about {
+        padding: 2.5rem;
+    }
+    .wellness__about h1 {
+        font-size: 2.5rem;
+    }
+    .wellness__about p {
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .wellness__about {
+        padding: 2rem 1.5rem;
+    }
+    .wellness__about h1 {
+        font-size: 2rem;
+    }
+    .wellness__about p {
+        font-size: 1.1rem;
     }
 }
