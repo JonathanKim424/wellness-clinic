@@ -7,6 +7,11 @@
     padding: 2rem 0;
 }
 
+.wellness__homepage-header h1 {
+    font-family: var(--font-logo);
+    font-size: 2.5rem;
+}
+
 .wellness__homepage-services {
     text-align: left;
     padding: 0 10rem;
@@ -83,4 +88,31 @@
     background-color: #c8c8c8;
     border-color: black;
     color: black;
+}
+
+@media screen and (max-width: 1000px) {
+    .wellness__homepage-services {
+        padding: 0 5rem;
+    }
+    .wellness__homepage-services-iv_body-content {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .wellness__homepage-services {
+        padding: 0 2.5rem;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .wellness__homepage-services {
+        padding: 0 2rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .wellness__homepage-services {
+        padding: 0 1rem;
+    }
 }
