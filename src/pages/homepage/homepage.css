@@ -9,7 +9,7 @@
 
 .wellness__homepage-services {
     text-align: left;
-    padding: 0 5rem;
+    padding: 0 10rem;
 }
 
 .wellness__homepage-services h1 {
@@ -22,8 +22,65 @@
 
 .wellness__homepage-services-sauna_body {
     display: flex;
+    width: 100%;
 }
 
 .wellness__homepage-services-sauna_body-left {
     padding-right: 2rem;
+}
+
+.wellness__homepage-services-iv_body-content {
+    border: 0.15rem solid black;
+    padding: 0.5rem;
+    width: 70%;
+}
+
+.wellness__homepage-services-iv_body-content_header {
+    display: flex;
+    width: 100%;
+}
+
+.wellness__homepage-services-iv_body-content_header-left {
+    width: 75%;
+}
+
+.wellness__homepage-services-iv_body-content_header-right {
+    width: 25%;
+    text-align: right;
+}
+
+.wellness__homepage-services-iv_body-content_footer-body {
+    display: flex;
+    width: 30rem;
+}
+
+.wellness__homepage-services-iv_body-content_footer-body_left {
+    width: 50%;
+}
+
+.wellness__homepage-services-iv_body-content_footer-body_right {
+    width: 50%;
+}
+
+.wellness__homepage-services-iv_footer {
+    padding: 2rem 0;
+}
+
+.wellness__homepage-services-iv_footer-book {
+    width: 100%;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.wellness__homepage-services-iv_footer-book a {
+    border: var(--color-text) 0.2rem solid;
+    padding: 0.5rem;
+    color: var(--color-text);
+    font-size: 1.5rem;
+}
+
+.wellness__homepage-services-iv_footer-book a:hover {
+    background-color: #c8c8c8;
+    border-color: black;
+    color: black;
 }

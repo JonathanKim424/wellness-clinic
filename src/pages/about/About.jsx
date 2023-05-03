@@ -1,13 +1,9 @@
 import React from 'react';
 import './about.css';
-import profile from '../../assets/profile.jpg';
 
 function About() {
     return (
         <div className='wellness__about'>
-            <div className='wellness__about-headshot'>
-                <img src={profile} alt="Profile" />
-            </div>
             <div className='wellness__about-text'>
                 <h1>Dr. Christine Kim</h1>
                 <p>
