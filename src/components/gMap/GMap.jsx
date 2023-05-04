@@ -14,7 +14,7 @@ function GMap() {
 function Map() {
     const center = useMemo(() => ({ lat: 34.01320173126053, lng:-118.48354153944086 }), []);
     console.log(process.env.REACT_APP_ENV_VAR);
-    console.log(process.env.REACT_APP_GOOGLE_MAPS_API_KEY);
+    console.log(process.env.secrets.REACT_APP_GOOGLE_MAPS_API_KEY);
     return (
         <GoogleMap
             zoom={14}
