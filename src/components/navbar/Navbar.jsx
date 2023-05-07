@@ -1,9 +1,30 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
 import './navbar.css';
 import { book_url } from '../../index.js';
 import logo from '../../assets/logo.png';
 import { HashLink as Link } from 'react-router-hash-link';
+
+function useComponentVisible(initialIsVisible) {
+    const [isComponentVisible, setIsComponentVisible] = useState(initialIsVisible);
+    const ref = useRef(null);
+    
+    const handleClickOutside = event => {
+        if (ref.current && !ref.current.contains(event.target)) {
+            setIsComponentVisible(false);
+        }
+    };
+
+    useEffect(() => {
+        document.addEventListener("click", handleClickOutside, true);
+        return () => {
+            document.removeEventListener("click", handleClickOutside, true);
+        };
+    });
+
+    return { ref, isComponentVisible, setIsComponentVisible };
+}
+
 
 const Menu = () => (
     <>
@@ -20,7 +41,7 @@ const Menu = () => (
 )
 
 const Navbar = () => {
-    const [toggleMenu, setToggleMenu] = useState(false);
+    const { ref, isComponentVisible, setIsComponentVisible } = useComponentVisible(false);
     return (
         <div className='wellness__navbar'>
             <div className='wellness__navbar-links'>
@@ -34,17 +55,17 @@ const Navbar = () => {
                     <a href={book_url} target="_blank" rel="noopener noreferrer">Book!</a>
                 </div>
             </div>
-            <div className='wellness__navbar-menu'>
-                {toggleMenu
-                    ? <RiCloseLine color='#1051A6E8' size={27} onClick={() => setToggleMenu(false)} />
-                    : <RiMenu3Line color='#1051A6E8' size={27} onClick={() => setToggleMenu(true)} />
+            <div className='wellness__navbar-menu' ref={ref}>
+                {isComponentVisible
+                    ? <RiCloseLine color='#1051A6E8' size={27} onClick={() => setIsComponentVisible(false)} />
+                    : <RiMenu3Line color='#1051A6E8' size={27} onClick={() => setIsComponentVisible(true)} />
                 }
-                {toggleMenu && (
+                {isComponentVisible && (
                     <div className='wellness__navbar-menu_container scale-up-center'>
                         <div className='wellness__navbar-menu_container-links'>
                             <Menu />
                         </div>
-                    </div>    
+                    </div>
                 )}
             </div>
         </div>
