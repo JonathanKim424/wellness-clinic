@@ -108,8 +108,14 @@
 }
 
 @media screen and (max-width: 550px) {
+    .wellness__homepage h1 {
+        font-size: 1.5rem;
+    }
     .wellness__homepage-services {
         padding: 0 2.5rem;
+    }
+    .wellness__homepage-services-sauna_body-left {
+        padding-right: 0;
     }
 }
 
