@@ -31,7 +31,11 @@
 }
 
 .wellness__homepage-services-sauna_body-left {
-    padding-right: 2rem;
+    padding-right: 5rem;
+}
+
+.wellness__homepage-services-iv {
+    padding-top: 2rem;
 }
 
 .wellness__homepage-services-iv_body-content {
@@ -88,6 +92,10 @@
     background-color: #c8c8c8;
     border-color: black;
     color: black;
+}
+
+.wellness__homepage-services-labs {
+    padding-top: 2rem;
 }
 
 @media screen and (max-width: 1000px) {
