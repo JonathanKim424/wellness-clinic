@@ -17,9 +17,10 @@ function Homepage() {
                             <p>Infrared therapy and cold plunge</p>
                         </div>
                         <div className='wellness__homepage-services-sauna_body-right'>
-                            <p>$39 for 30 minutes for members</p>
-                            <p>$49 for 30 minutes for non-members</p>
-                            <p>$370 for package of ten 30 min sessions</p>
+                            <p>$25 for 30 minutes for members</p>
+                            <p>$30 for 30 minutes for non-members</p>
+                            <p>$230 package of ten 30 min sessions for members</p>
+                            <p>$270 package of ten 30 min sessions for non-members</p>
                         </div>
                     </div>
                 </div>

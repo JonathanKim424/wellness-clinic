@@ -9,15 +9,7 @@
 
 .wellness__contact-header h1 {
     color: var(--color-text);
-    text-align: left;
-    padding-bottom: 1rem;
-}
-
-.wellness__contact-header p {
-    color: black;
-    text-align: left;
-    font-size: 1.5rem;
-    padding-bottom: 1rem;
+    padding-bottom: 2rem;
 }
 
 .wellness__contact-header-book a {
