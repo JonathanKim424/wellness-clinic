@@ -200,11 +200,11 @@ function Homepage() {
                         <p>Basic labs</p>
                         <p>Comprehensive lab with micronutrients</p>
                     </div>
-                    <div className='wellness__homepage-services-iv_footer'>
+                    {/* <div className='wellness__homepage-services-iv_footer'>
                         <div className='wellness__homepage-services-iv_footer-book'>
                             <a href={book_url} target="_blank" rel="noopener noreferrer">Book Now!</a>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </div>

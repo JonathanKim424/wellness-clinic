@@ -95,7 +95,7 @@
 }
 
 .wellness__homepage-services-labs {
-    padding-top: 2rem;
+    padding: 2rem 0;
 }
 
 @media screen and (max-width: 1000px) {
