@@ -20,11 +20,12 @@
 }
 
 .wellness__header-text_h1 {
+    font-family: var(--font-logo);
     position: absolute;
     text-align: center;
     width: 100%;
     top: 30%;
-    font-size: 3rem;
+    font-size: 3.8rem;
 }
 
 .wellness__header-text_h3 {
@@ -32,6 +33,6 @@
     text-align: center;
     width: 100%;
     top: 45%;
-    font-size: 2rem;
+    font-size: 1.9rem;
     padding: 0 1rem;
 }
