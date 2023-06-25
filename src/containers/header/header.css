@@ -36,3 +36,38 @@
     font-size: 1.9rem;
     padding: 0 1rem;
 }
+
+@media screen and (max-width: 900px) {
+    .wellness__header-text_h1 {
+        font-size: 3rem;
+    }
+    .wellness__header-text_h3 {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .wellness__header-text_h1 {
+        font-size: 2.8rem;
+        padding: 0 1rem;
+    }
+    .wellness__header-text_h3 {
+        font-size: 1.3rem;
+        top: 50%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .wellness__header-text_h1 {
+        font-size: 2.5rem;
+    }
+    .wellness__header-text_h3 {
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .wellness__header-text_h1 {
+        font-size: 1.9rem;
+    }
+}
