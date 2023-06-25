@@ -53,3 +53,32 @@
         transform: translate3d(0,0,0);
     }
 }
+
+@media screen and (max-width: 700px) {
+    .wellness__homeServicesRight {
+        flex-direction: column;
+    }
+    .wellness__homeServicesRight-text {
+        width: 100%;
+        margin: auto;
+        padding-bottom: 1rem;
+    }
+    .wellness__homeServicesRight-img {
+        width: 100%;
+    }
+    .wellness__homeServicesRight-img img {
+        max-height: 19rem;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .wellness__homeServicesRight-text p {
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .wellness__homeServicesRight {
+        padding: 2rem 2rem;
+    }
+}

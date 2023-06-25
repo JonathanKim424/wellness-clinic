@@ -53,3 +53,53 @@
         transform: translate3d(0,0,0);
     }
 }
+
+@media screen and (max-width: 850px) {
+    .wellness__homeServicesLeft-img {
+        width: 35rem;
+    }
+    .wellness__homeServicesLeft-img img {
+        max-height: 18rem;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .wellness__homeServicesLeft-img {
+        width: 30rem;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .wellness__homeServicesLeft {
+        flex-direction: column-reverse;
+    }
+    .wellness__homeServicesLeft-img {
+        width: 100%;
+    }
+    .wellness__homeServicesLeft-img img {
+        max-height: 20rem;
+    }
+    .wellness__homeServicesLeft-text {
+        width: 100%;
+        margin: auto;
+        padding-bottom: 1rem;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .wellness__homeServicesLeft-img img {
+        max-height: 17rem;
+    }
+    .wellness__homeServicesLeft-text p {
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .wellness__homeServicesLeft {
+        padding: 2rem 2rem;
+    }
+    .wellness__homeServicesLeft-img img {
+        max-height: 15rem;
+    }
+}
