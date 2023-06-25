@@ -1,9 +1,10 @@
-import React from 'react';
+import React, { useLayoutEffect } from 'react';
 import './vitaminIvTherapy.css';
 import { book_url } from '../../index.js';
 import image from '../../assets/iv_therapy.jpg';
 
 function VitaminIvTherapy() {
+    useLayoutEffect(() => window.scrollTo(0,0));
     return (
         <div className='wellness__vitaminivtherapy'>
             <div className='wellness__vitaminivtherapy-header' style={{ backgroundImage: `url(${image})`}}>
