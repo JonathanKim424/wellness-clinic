@@ -9,7 +9,9 @@ import { HashLink as Link } from 'react-router-hash-link';
 const Menu = () => (
     <>
         <div className='wellness__navbar-links_container_services'>
-            <span>Services</span>
+            <div className='wellness__navbar-links_container_services-tag'>
+                <Link as={Link} to="/#services"><span>Services</span></Link>
+            </div>
             <div className='wellness__navbar-links_container-services'>
                 <ServiceMenu />
             </div>
@@ -53,7 +55,7 @@ const Navbar = () => {
                 }
                 {toggleMenu && (
                     <div className='wellness__navbar-menu_container scale-up-center'>
-                        <div className='wellness__navbar-menu_container-links'>
+                        <div className='wellness__navbar-menu_container-links' onClick={() => setToggleMenu(false)}>
                             <Menu />
                         </div>
                     </div>    

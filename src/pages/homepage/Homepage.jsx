@@ -11,7 +11,7 @@ function Homepage() {
         <div className='wellness__homepage'>
             <div className='wellness__homepage-bg'>
                 <Header />
-                <div className='wellness__homepage-services'>
+                <div className='wellness__homepage-services' id='services'>
                     <h1>Services</h1>
                     <HomeServicesLeft
                         image={infraredSauna}
@@ -27,7 +27,7 @@ function Homepage() {
                     />
                     <HomeServicesLeft
                         image={ivTherapy}
-                        link="iv"
+                        link="vitaminivtherapy"
                         services="IV Therapy/Vitamin Injections"
                         description=""
                     />

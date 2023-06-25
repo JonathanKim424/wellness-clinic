@@ -9,7 +9,7 @@ function HomeServicesLeft(props) {
         threshold: 0.12
     });
     const image = props.image;
-    const linkhash = props.link;
+    const linkhash = props.link + "#";
     const services = props.services;
     const description = props.description;
     return (

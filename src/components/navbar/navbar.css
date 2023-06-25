@@ -12,6 +12,7 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    height: 100%;
 }
 
 .wellness__navbar-links_logo {
@@ -26,6 +27,14 @@
 .wellness__navbar-links_container {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    height: 100%;
+}
+
+.wellness__navbar-links_container_services {
+    height: 100%;
+    display: flex;
+    align-items: center;
 }
 
 .wellness__navbar-links_container span,
@@ -44,10 +53,10 @@
 .wellness__navbar-links_container-services {
     display: none;
     position: absolute;
-    top: 52px;
+    top: 4rem;
     margin-left: 1.7rem;
     padding: 0.5rem 1rem;
-    background-color: var(--color-secondary);
+    background-color: var(--color-primary);
     min-width: 15rem;
     z-index: 1;
     text-align: left;
@@ -92,6 +101,7 @@
     margin-left: 1rem;
     display: none;
     position: relative;
+    height: 100%;
 }
 
 .wellness__navbar-menu svg {
@@ -107,9 +117,8 @@
     background: var(--color-primary);
     padding: 2rem;
     position: absolute;
-    top: 40px;
+    top: 4rem;
     right: 0;
-    margin-top: 1rem;
     min-width: 180px;
     border-radius: 5px;
     box-shadow: 0 0 5 rgba(0,0,0,0.2);
@@ -124,22 +133,21 @@
     .wellness__navbar-links_container {
         display: none;
     }
+    .wellness__navbar-links_container_services:hover .wellness__navbar-links_container-services {
+        display: none;
+    }
     .wellness__navbar-menu {
         display: flex;
-    }
-}
-
-@media screen and (max-width: 700x) {
-    .wellness__navbar {
-        padding: 2rem 4rem;
+        align-items: center;
     }
 }
 
 @media screen and (max-width: 550px) {
     .wellness__navbar {
-        padding: 2rem;
+        padding: 0 2.5rem;
     }
     .wellness__navbar-menu_container {
-        top: 20px;
+        padding: 1rem;
+        min-width: 100px;
     }
 }
