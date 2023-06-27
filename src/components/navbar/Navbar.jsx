@@ -44,9 +44,9 @@ const Navbar = () => {
                 <div className='wellness__navbar-links_container'>
                     <Menu />
                 </div>
-                <div className='wellness__navbar-links_book'>
+                {/* <div className='wellness__navbar-links_book'>
                     <a href={book_url} target="_blank" rel="noopener noreferrer">Book!</a>
-                </div>
+                </div> */}
             </div>
             <div className='wellness__navbar-menu'>
                 {toggleMenu
