@@ -102,4 +102,10 @@
     .wellness__homeServicesLeft-img img {
         max-height: 15rem;
     }
+    .wellness__homeServicesLeft-text h1 {
+        font-size: 1.6rem;
+    }
+    .wellness__homeServicesLeft-text p {
+        font-size: 1.1rem;
+    }
 }

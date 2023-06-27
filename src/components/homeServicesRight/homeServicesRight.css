@@ -81,4 +81,10 @@
     .wellness__homeServicesRight {
         padding: 2rem 2rem;
     }
+    .wellness__homeServicesRight-text h1 {
+        font-size: 1.6rem;
+    }
+    .wellness__homeServicesRight-text p {
+        font-size: 1.1rem;
+    }
 }
