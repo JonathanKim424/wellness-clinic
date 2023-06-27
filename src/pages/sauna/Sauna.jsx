@@ -9,11 +9,16 @@ function Sauna() {
                 <h1>Infrared Sauna</h1>
             </div>
             <div className='wellness__sauna-info'>
-                <div className='wellness__sauna-info-promotion'>
-                    <h1>Introduction Promo for contrast therapy:</h1>
-                    <h2>Infrared therapy and cold plunge</h2>
-                    <p>$39 for 30 minutes for members</p>
-                    <p>$49 for 30 minutes for non-members</p>
+                <h1>Infrared Sauna and Cold Plunge</h1>
+                <div className='wellness__sauna-info-costs'>
+                    <div className='wellness__sauna-info-costs_left'>
+                        <p>$25 for 30 minutes for members</p>
+                        <p>$230 package of ten 30 min sessions for members</p>
+                    </div>
+                    <div className='wellness__sauna-info-costs_right'>
+                        <p>$30 for 30 minutes for non-members</p>
+                        <p>$270 package of ten 30 min sessions for non-members</p>
+                    </div>
                 </div>
                 <div className='wellness__sauna-info-text'>
                     <h3>Is it safe for me to use the infrared sauna?</h3>
