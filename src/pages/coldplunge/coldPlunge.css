@@ -16,7 +16,7 @@
 
 .wellness__coldplunge-header h1 {
     position: absolute;
-    top: 50%;
+    top: 40%;
     height: 100%;
     width: 100%;
     text-shadow: 1px 1px 4px black, 1px 1px 4px black, 1px 1px 4px black, 1px 1px 4px black;
@@ -32,25 +32,32 @@
     color: var(--color-text);
 }
 
+.wellness__coldplunge-info h1 {
+    font-size: 2rem;
+    text-decoration: underline;
+}
+
 .wellness__coldplunge-info p {
     color: black;
     font-size: 1.2rem;
 }
 
-.wellness__coldplunge-info-promotion {
-    width: auto;
-    padding: 0.5rem;
+.wellness__coldplunge-info-costs {
+    padding: 0.5rem 0;
+    display: flex;
+    justify-content: space-evenly;
 }
 
-.wellness__coldplunge-info-promotion h1 {
-    font-size: 2rem;
+.wellness__coldplunge-info-costs_left {
+    text-align: left;
 }
 
-.wellness__coldplunge-info-promotion h2 {
-    font-size: 1.5rem;
+.wellness__coldplunge-info-costs_right {
+    text-align: left;
 }
 
 .wellness__coldplunge-info-text {
+    padding-top: 1rem;
     text-align: left;
 }
 
@@ -63,6 +70,54 @@
     font-size: 1.2rem;
 }
 
-.wellness__coldplunge-info-text p {
-    color: black;
+@media screen and (max-width: 1200px) {
+    .wellness__coldplunge-header {
+        background-position: 100%;
+    }
+    .wellness__coldplunge-info {
+        padding: 2rem 5rem;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .wellness__coldplunge-info {
+        padding: 2rem 2rem;
+    }
+    .wellness__coldplunge-info-costs {
+        display: block;
+        padding: 0.5rem 12rem;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .wellness__coldplunge-info-costs {
+        padding: 0.5rem 7rem;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .wellness__coldplunge-info-costs {
+        padding: 0.5rem 2.5rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .wellness__coldplunge-info-costs {
+        padding: 0.5rem 0;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .wellness__coldplunge-info {
+        padding: 2rem 1.5rem;
+    }
+    .wellness__coldplunge-info h1 {
+        font-size: 1.6rem;
+    }
+    .wellness__coldplunge-info p {
+        font-size: 1rem;
+    }
+    .wellness__coldplung-info h3 {
+        font-size: 1.4rem;
+    }
 }

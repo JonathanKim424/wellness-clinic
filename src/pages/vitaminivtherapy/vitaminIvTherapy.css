@@ -1,9 +1,9 @@
-.wellness__vitaminivtherapy {
+.wellness__iv {
     align-items: center;
     background-color: var(--color-secondary);
 }
 
-.wellness__vitaminivtherapy-header {
+.wellness__iv-header {
     position: relative;
     background-position: top center;
     background-repeat: no-repeat;
@@ -14,9 +14,9 @@
     height: 50vh;
 }
 
-.wellness__vitaminivtherapy-header h1 {
+.wellness__iv-header h1 {
     position: absolute;
-    top: 50%;
+    top: 40%;
     height: 100%;
     width: 100%;
     text-shadow: 1px 1px 4px black, 1px 1px 4px black, 1px 1px 4px black, 1px 1px 4px black;
@@ -26,39 +26,138 @@
     align-items: center;
 }
 
-.wellness__vitaminivtherapy-info {
+.wellness__iv-info {
     display: flex;
-    justify-content: center;
-    padding: 2rem 10rem;
-    width: 100%;
-}
-
-.wellness__vitaminivtherapy-info-text {
+    flex-direction: column;
     text-align: left;
+    padding: 2rem 20rem;
     color: var(--color-text);
-    font-size: 1.5rem;
 }
 
-.wellness__vitaminivtherapy-info-text h1 {
-    font-size: 2.5rem;
-    padding: 1rem 0;
+.wellness__iv-info h1 {
+    text-decoration: underline;
 }
 
-.wellness__vitaminivtherapy-info-text h2 {
-    font-size: 2rem;
-}
-
-.wellness__vitaminivtherapy-info-text p {
+.wellness__iv-info p {
     color: black;
 }
 
-.wellness__vitaminivtherapy-info-text-lower {
+.wellness__iv-info_body-content {
+    border: 0.15rem solid black;
+    padding: 0.5rem;
+}
+
+.wellness__iv-info_body-content_header {
+    display: flex;
+    width: 100%;
+}
+
+.wellness__iv-info_body-content_header-left {
+    width: 75%;
+}
+
+.wellness__iv-info_body-content_header-right {
+    width: 25%;
+    text-align: right;
+}
+
+.wellness__iv-info_body-content_footer {
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+}
+
+.wellness__iv-info_body-content_footer-body {
+    display: flex;
+    width: 30rem;
+}
+
+.wellness__iv-info_body-content_footer-body_left {
+    width: 50%;
+}
+
+.wellness__iv-info_body-content_footer-body_right {
+    width: 50%;
+}
+
+.wellness__iv-info_labs {
+    padding: 2rem 0;
+}
+
+.wellness__iv-info_lower {
     margin: 2rem 5rem;
     padding: 2rem;
     border: 0.2rem solid black;
     background-color: rgba(16,81,166,0.4);
 }
 
-.wellness__vitaminivtherapy-info-text-lower h3 {
-    font-size: 2.5rem;
+.wellness__iv-info_lower p {
+    padding-bottom: 1rem;
+}
+
+@media screen and (max-width: 1500px) {
+    .wellness__iv-info {
+        padding: 2rem 14rem;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .wellness__iv-info {
+        padding: 2rem 6rem;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .wellness__iv-info {
+        padding: 2rem 2rem;
+    }
+    .wellness__iv-info_lower {
+        margin: 2rem 2rem;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .wellness__iv-info {
+        padding: 2rem 1rem;
+    }
+    .wellness__iv-info_lower {
+        margin: 2rem 1rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .wellness__iv-info h1 {
+        font-size: 1.6rem;
+    }
+    .wellness__iv-info_body-content_footer-body {
+        display: flex;
+        width: 100%;
+    }
+    .wellness__iv-info_lower {
+        margin: 2rem 0;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .wellness__iv-header {
+        background-position: 37%;
+    }
+    .wellness__iv-header h1 {
+        font-size: 2rem;
+        padding: 0 1rem;
+    }
+    .wellness__iv-info h1 {
+        font-size: 1.5rem;
+    }
+    .wellness__iv-info h2 {
+        font-size: 1.3rem;
+    }
+    .wellness__iv-info_lower {
+        padding: 1.5rem 0.5rem;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .wellness__iv-header h1 {
+        font-size: 1.9rem;
+    }
 }
