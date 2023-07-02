@@ -1,11 +1,10 @@
 import React from 'react';
 import './coldPlunge.css';
-import image from '../../assets/cold_plunge.jpg';
 
 function ColdPlunge() {
     return (
         <div className='wellness__coldplunge'>
-            <div className='wellness__coldplunge-header' style={{ backgroundImage: `url(${image})`}}>
+            <div className='wellness__coldplunge-header'>
                 <h1>Cold Plunge</h1>
             </div>
             <div className='wellness__coldplunge-info'>

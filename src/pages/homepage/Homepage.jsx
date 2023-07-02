@@ -2,9 +2,14 @@ import React from 'react';
 import './homepage.css';
 import { HomeServicesLeft, HomeServicesRight } from '../../components';
 import { Header } from '../../containers';
-import infraredSauna from '../../assets/infrared_sauna.jpg';
-import coldPlunge from '../../assets/cold_plunge.jpg';
-import ivTherapy from '../../assets/iv_therapy.jpg';
+import {
+    cold_plungejpg,
+    cold_plungewebp,
+    infrared_saunajpg,
+    infrared_saunawebp,
+    iv_therapyjpg,
+    iv_therapywebp
+} from '../../assets';
 
 function Homepage() {
     return (
@@ -14,21 +19,24 @@ function Homepage() {
                 <div className='wellness__homepage-services' id='services'>
                     <h1>Services</h1>
                     <HomeServicesLeft
-                        image={infraredSauna}
+                        src={infrared_saunawebp}
+                        fallback={infrared_saunajpg}
                         link="sauna"
-                        services="Infrared Sauna"
+                        alttag="Infrared Sauna"
                         description="Rejuvenate, relieve and relax"
                     />
                     <HomeServicesRight
-                        image={coldPlunge}
+                        src={cold_plungewebp}
+                        fallback={cold_plungejpg}
                         link="coldplunge"
-                        services="Cold Plunge"
+                        alttag="Cold Plunge"
                         description="Invigorate, boost your immunity and enhance your recovery and performance"
                     />
                     <HomeServicesLeft
-                        image={ivTherapy}
+                        src={iv_therapywebp}
+                        fallback={iv_therapyjpg}
                         link="vitaminivtherapy"
-                        services="IV Therapy/Vitamin Injections"
+                        alttag="IV Therapy/Vitamin Injections"
                         description=""
                     />
                 </div>

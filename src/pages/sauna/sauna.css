@@ -4,9 +4,10 @@
 }
 
 .wellness__sauna-header {
+    background-image: url(../../assets/infrared_sauna.jpg);
     position: relative;
-    background-position: top center;
-    background-repeat: no-repeat;
+    /* background-position: top center; */
+    /* background-repeat: no-repeat; */
     background-size: cover;
     background-attachment: fixed;
     background-position: 50% 80%;
@@ -66,6 +67,14 @@
 .wellness__sauna-info-text h3 {
     padding: 1rem 0;
     font-size: 1.5rem;
+}
+
+@supports (background-image: -webkit-image-set(url('../../assets/infrared_sauna.webp') 1x)) {
+    .wellness__sauna-header {
+        background-image: -webkit-image-set(
+            url('../../assets/infrared_sauna.webp') 1x
+        )
+    }
 }
 
 @media screen and (max-width: 1200px) {

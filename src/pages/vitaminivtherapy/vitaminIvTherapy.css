@@ -4,9 +4,10 @@
 }
 
 .wellness__iv-header {
+    background-image: url(../../assets/iv_therapy.jpg);
     position: relative;
-    background-position: top center;
-    background-repeat: no-repeat;
+    /* background-position: top center; */
+    /* background-repeat: no-repeat; */
     background-size: cover;
     background-attachment: fixed;
     background-position: 50% 80%;
@@ -92,6 +93,14 @@
 
 .wellness__iv-info_lower p {
     padding-bottom: 1rem;
+}
+
+@supports (background-image: -webkit-image-set(url('../../assets/iv_therapy.webp') 1x)) {
+    .wellness__iv-header {
+        background-image: -webkit-image-set(
+            url('../../assets/iv_therapy.webp') 1x
+        )
+    }
 }
 
 @media screen and (max-width: 1500px) {

@@ -3,8 +3,8 @@
 }
 
 .wellness__header-bg {
+    background-image: url(../../assets/header.jpg);
     background-position: top center;
-    background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 60%;
     width: 100%;
@@ -35,6 +35,14 @@
     top: 45%;
     font-size: 1.9rem;
     padding: 0 1rem;
+}
+
+@supports (background-image: -webkit-image-set(url('../../assets/header.webp') 1x)) {
+    .wellness__header-bg {
+        background-image: -webkit-image-set(
+            url('../../assets/header.webp') 1x
+        )
+    }
 }
 
 @media screen and (max-width: 900px) {

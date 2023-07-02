@@ -1,11 +1,10 @@
 import React from 'react';
 import './sauna.css';
-import image from '../../assets/infrared_sauna.jpg';
 
 function Sauna() {
     return (
         <div className='wellness__sauna'>
-            <div className='wellness__sauna-header' style={{ backgroundImage: `url(${image})`}}>
+            <div className='wellness__sauna-header'>
                 <h1>Infrared Sauna</h1>
             </div>
             <div className='wellness__sauna-info'>
