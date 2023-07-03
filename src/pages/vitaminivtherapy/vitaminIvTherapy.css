@@ -133,7 +133,23 @@
     }
 }
 
+@media screen and (max-width: 900px) {
+    .wellness__iv-header {
+        background-position: 100% 250%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .wellness__iv-header {
+        background-repeat: no-repeat space;
+        background-position: -1rem -5rem;
+    }
+}
+
 @media screen and (max-width: 500px) {
+    .wellness__iv-header {
+        background-position: -8rem -5rem;
+    }
     .wellness__iv-info h1 {
         font-size: 1.6rem;
     }
@@ -148,7 +164,7 @@
 
 @media screen and (max-width: 400px) {
     .wellness__iv-header {
-        background-position: 37%;
+        background-position: -10rem -3rem;
     }
     .wellness__iv-header h1 {
         font-size: 2rem;

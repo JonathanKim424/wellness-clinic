@@ -1,9 +1,8 @@
 import React, { useState } from 'react';
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
 import './navbar.css';
-import { book_url } from '../../index.js';
+// import { book_url } from '../../index.js';
 import logo from '../../assets/logo.png';
-// import { Link } from 'react-router-dom';
 import { HashLink as Link } from 'react-router-hash-link';
 
 const Menu = () => (
@@ -27,9 +26,9 @@ const Menu = () => (
 
 const ServiceMenu = () => (
     <>
+        <Link as={Link} to="/vitaminivtherapy"><p>IV Therapy/Vitamin Injections</p></Link>
         <Link as={Link} to="/sauna"><p>Infrared Sauna</p></Link>
         <Link as={Link} to="/coldplunge"><p>Cold Plunge</p></Link>
-        <Link as={Link} to="/vitaminivtherapy"><p>IV Therapy/Vitamin Injections</p></Link>
     </>
 )
 

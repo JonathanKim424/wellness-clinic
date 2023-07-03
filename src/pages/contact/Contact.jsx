@@ -1,7 +1,7 @@
 import React from 'react';
 import './contact.css';
 import { GMap } from '../../components';
-import { book_url } from '../../index.js';
+// import { book_url } from '../../index.js';
 
 function Contact() {
     return (

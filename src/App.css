@@ -9,7 +9,7 @@ body {
   background: var(--color-bg);
   cursor: default;
   font-family: var(--font-family);
-  font-weight: 600;
+  /* font-weight: 600; */
 }
 
 a {
