@@ -1,5 +1,5 @@
 .wellness__contact {
-    background-color: var(--color-secondary);
+    background-color: var(--color-primary);
 }
 
 .wellness__contact-header {
@@ -8,7 +8,6 @@
 }
 
 .wellness__contact-header h1 {
-    color: var(--color-text);
     padding-bottom: 2rem;
 }
 
@@ -35,11 +34,7 @@
     margin: auto;
     padding-left: 1rem;
     text-align: left;
-}
-
-.wellness__contact-info-text p {
     font-size: 1.5rem;
-    padding: 0.5rem;
 }
 
 @media screen and (max-width: 960px) {
@@ -62,7 +57,7 @@
 }
 
 @media screen and (max-width: 750px) {
-    .wellness__contact p {
+    .wellness__contact-info-text {
         font-size: 1.3rem;
     }
     .wellness__contact-header {
@@ -85,13 +80,13 @@
 }
 
 @media screen and (max-width: 600px) {
-    .wellness__contact p {
+    .wellness__contact-info-text {
         font-size: 1.2rem;
     }
 }
 
 @media screen and (max-width: 510px) {
-    .wellness__contact p {
+    .wellness__contact-info-text {
         font-size: 1.1rem;
     }
     .wellness__contact-info {
@@ -106,9 +101,6 @@
     }
     .wellness__contact-info-text {
         text-align: left;
-        padding: 0;
-    }
-    .wellness__contact-info-text p {
         padding: 0;
     }
 }

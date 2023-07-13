@@ -3,7 +3,7 @@
     justify-content: space-evenly;
     padding: 2rem 5rem;
     height: 100%;
-    background-color: var(--color-secondary);
+    background-color: var(--color-primary);
 }
 
 .wellness__homeServicesLeft-noView {
@@ -32,11 +32,7 @@
     margin: auto 2rem;
 }
 
-.wellness__homeServicesLeft-text h1 {
-    color: var(--color-text);
-}
-
-.wellness__homeServicesLeft-text p {
+.wellness__homeServicesLeft-text_subheading {
     font-size: 1.5rem;
 }
 
@@ -84,7 +80,7 @@
     .wellness__homeServicesLeft-img img {
         max-height: 17rem;
     }
-    .wellness__homeServicesLeft-text p {
+    .wellness__homeServicesLeft-text_subheading {
         font-size: 1.2rem;
     }
 }
@@ -99,7 +95,7 @@
     .wellness__homeServicesLeft-text h1 {
         font-size: 1.6rem;
     }
-    .wellness__homeServicesLeft-text p {
+    .wellness__homeServicesLeft-text_subheading {
         font-size: 1.1rem;
     }
 }

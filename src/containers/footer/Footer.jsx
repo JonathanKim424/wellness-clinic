@@ -10,7 +10,7 @@ const Footer = () => {
                 <a href="https://www.facebook.com/CircuitWorks" target="_blank" rel="noopener noreferrer"><BsFacebook /></a>
             </div>
             <div className='wellness__footer-copyright'>
-                <p>&#169; 2023 Circuit Works Wellness. All rights reserved.</p>
+                &#169; 2023 Circuit Works Wellness. All rights reserved.
             </div>
         </div>
     )

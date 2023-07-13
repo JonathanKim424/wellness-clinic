@@ -49,8 +49,8 @@ function Homepage() {
                         link="/"
                         alttag="Botox"
                         description="Coming soon!"
+                        imgtag={true}
                     />
-                    <a href="https://www.freepik.com/free-photo/cosmetic-botox-injection-forehead_26673066.htm#page=2&query=botox&position=2&from_view=keyword&track=sph">Image by ArtPhoto_studio</a> on Freepik
                 </div>
             </div>
         </div>

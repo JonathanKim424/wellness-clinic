@@ -16,7 +16,7 @@
     width: 100%;
     text-shadow: 1px 1px 4px black, 1px 1px 4px black, 1px 1px 4px black, 1px 1px 4px black;
     font-weight: 800;
-    color: white;
+    color: var(--color-heading);
 }
 
 .wellness__header-text_h1 {

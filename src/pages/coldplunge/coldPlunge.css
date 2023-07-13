@@ -1,13 +1,10 @@
 .wellness__coldplunge {
     align-items: center;
-    background-color: var(--color-secondary);
 }
 
 .wellness__coldplunge-header {
     background-image: url(../../assets/cold_plunge.jpg);
     position: relative;
-    /* background-position: top center; */
-    /* background-repeat: no-repeat; */
     background-size: cover;
     background-attachment: fixed;
     background-position: 50% 70%;
@@ -23,24 +20,27 @@
     text-shadow: 1px 1px 4px black, 1px 1px 4px black, 1px 1px 4px black, 1px 1px 4px black;
     font-weight: 800;
     font-size: 3rem;
-    color: var(--color-primary);
+    color: var(--color-heading);
     align-items: center;
 }
 
 .wellness__coldplunge-info {
     padding: 2rem 10rem;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.wellness__coldplunge-info-book {
+    padding-bottom: 2rem;
+    z-index: 1;
+}
+
+.wellness__coldplunge-info-book a {
+    border: var(--color-text) 0.2rem solid;
+    padding: 0.5rem;
     color: var(--color-text);
-}
-
-.wellness__coldplunge-info h1 {
-    font-size: 2rem;
-    text-decoration: underline;
-}
-
-.wellness__coldplunge-info p {
-    color: black;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 }
 
 .wellness__coldplunge-info-costs {
@@ -69,6 +69,14 @@
 
 .wellness__coldplunge-info-text h4 {
     font-size: 1.2rem;
+}
+
+.wellness__coldplunge-info-footer {
+    text-align: left;
+    margin: 2rem 5rem;
+    padding: 2rem;
+    border: 0.2rem solid var(--color-text);
+    background-color: rgba(16,81,166,0.4);
 }
 
 @supports (background-image: -webkit-image-set(url('../../assets/cold_lunge.webp') 1x)) {
@@ -119,12 +127,6 @@
 @media screen and (max-width: 400px) {
     .wellness__coldplunge-info {
         padding: 2rem 1.5rem;
-    }
-    .wellness__coldplunge-info h1 {
-        font-size: 1.6rem;
-    }
-    .wellness__coldplunge-info p {
-        font-size: 1rem;
     }
     .wellness__coldplung-info h3 {
         font-size: 1.4rem;

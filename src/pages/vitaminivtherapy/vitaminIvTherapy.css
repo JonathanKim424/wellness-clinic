@@ -1,13 +1,10 @@
 .wellness__iv {
     align-items: center;
-    background-color: var(--color-secondary);
 }
 
 .wellness__iv-header {
     background-image: url(../../assets/iv_therapy.jpg);
     position: relative;
-    /* background-position: top center; */
-    /* background-repeat: no-repeat; */
     background-size: cover;
     background-attachment: fixed;
     background-position: 50% 80%;
@@ -35,17 +32,10 @@
     color: var(--color-text);
 }
 
-.wellness__iv-info h1 {
-    text-decoration: underline;
-}
-
-.wellness__iv-info p {
-    color: black;
-}
-
 .wellness__iv-info_body-content {
-    border: 0.15rem solid black;
+    /* border: 0.15rem solid var(--color-text); */
     padding: 0.5rem;
+    padding-bottom: 1rem;
 }
 
 .wellness__iv-info_body-content_header {
@@ -64,7 +54,7 @@
 
 .wellness__iv-info_body-content_footer {
     padding-top: 0.5rem;
-    padding-bottom: 1rem;
+    padding-bottom: 2rem;
 }
 
 .wellness__iv-info_body-content_footer-body {
@@ -78,10 +68,6 @@
 
 .wellness__iv-info_body-content_footer-body_right {
     width: 50%;
-}
-
-.wellness__iv-info_labs {
-    padding: 2rem 0;
 }
 
 .wellness__iv-info_lower {
@@ -150,9 +136,6 @@
     .wellness__iv-header {
         background-position: -8rem -5rem;
     }
-    .wellness__iv-info h1 {
-        font-size: 1.6rem;
-    }
     .wellness__iv-info_body-content_footer-body {
         display: flex;
         width: 100%;
@@ -169,9 +152,6 @@
     .wellness__iv-header h1 {
         font-size: 2rem;
         padding: 0 1rem;
-    }
-    .wellness__iv-info h1 {
-        font-size: 1.5rem;
     }
     .wellness__iv-info h2 {
         font-size: 1.3rem;

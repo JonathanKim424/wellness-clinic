@@ -3,15 +3,13 @@ import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Navbar } from './components';
 import { Footer } from './containers';
-import { Homepage, Sauna, ColdPlunge, VitaminIvTherapy, Contact, About } from './pages';
+import { Homepage, Sauna, ColdPlunge, VitaminIvTherapy, Contact, About, Services } from './pages';
 
 function App() {
   return (
     <Router>
       <div className='App'>
-        <div className='gradient__bg'>
-          <Navbar />
-        </div>
+        <Navbar />
         <Routes>
           <Route path="/" element={<Homepage />}/>
           <Route path="/sauna" element={<Sauna />}/>
@@ -19,10 +17,9 @@ function App() {
           <Route path="/vitaminivtherapy" element={<VitaminIvTherapy />}/>
           <Route path="/about" element={<About />}/>
           <Route path="/contact" element={<Contact />}/>
+          <Route path="/services" element={<Services />}/>
         </Routes>
-        <div className='gradient__bg'>
-          <Footer />
-        </div>
+        <Footer />
       </div>
     </Router>
   );

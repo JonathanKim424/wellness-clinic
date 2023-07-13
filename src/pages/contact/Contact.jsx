@@ -18,11 +18,11 @@ function Contact() {
                     <GMap />
                 </div>
                 <div className='wellness__contact-info-text'>
-                    <p>Circuit Works</p>
-                    <p>1837 Lincoln Blvd</p>
-                    <p>Santa Monica, CA 90404</p>
-                    <p>(209) 255-6830</p>
-                    <p>wellness@circuitworksla.com</p>
+                    Circuit Works<br />
+                    1837 Lincoln Blvd<br />
+                    Santa Monica, CA 90404<br />
+                    (209) 255-6830<br />
+                    wellness@circuitworksla.com<br />
                 </div>
             </div>
         </div>

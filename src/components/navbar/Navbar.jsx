@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
 import './navbar.css';
-// import { book_url } from '../../index.js';
+import { book_url } from '../../index.js';
 import logo from '../../assets/logo.png';
 import { HashLink as Link } from 'react-router-hash-link';
 
@@ -43,9 +43,9 @@ const Navbar = () => {
                 <div className='wellness__navbar-links_container'>
                     <Menu />
                 </div>
-                {/* <div className='wellness__navbar-links_book'>
+                <div className='wellness__navbar-links_book'>
                     <a href={book_url} target="_blank" rel="noopener noreferrer">Book!</a>
-                </div> */}
+                </div>
             </div>
             <div className='wellness__navbar-menu'>
                 {toggleMenu

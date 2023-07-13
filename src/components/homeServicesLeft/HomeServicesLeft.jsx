@@ -23,7 +23,9 @@ function HomeServicesLeft(props) {
             </div>
             <div className='wellness__homeServicesLeft-text'>
                 <h1>{alttag}</h1>
-                <p>{description}</p>
+                <div className='wellness__homeServicesLeft-text_subheading'>
+                    {description}
+                </div>
             </div>
         </div>
     );

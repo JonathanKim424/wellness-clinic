@@ -3,18 +3,14 @@
 :root {
   --font-family: 'Roboto', sans-serif;
   --font-logo: 'Oswald', sans-serif;
-
-  --gradient-text: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
-  --gradient-bar: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%);
   
   --color-primary: #FFFFFF;
-  /* --color-secondary: #E5E5E5; */
-  --color-secondary: white;
+  --color-secondary: #1051A6E8;
   --color-tertiary: #78CAD2;
+  --color-navbar: #FFFFFF;
   --color-bg: #040C18;
   --color-footer : #031B34;
   --color-blog: #042C54;
-  /* --color-text: #1051A6E8; */
-  --color-text: black;
-  --color-subtext: #FF8A71;
+  --color-text: #000000;
+  --color-heading: #FFFFFF;
 }

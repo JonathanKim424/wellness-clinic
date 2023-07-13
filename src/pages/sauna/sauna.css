@@ -1,13 +1,10 @@
 .wellness__sauna {
     align-items: center;
-    background-color: var(--color-secondary);
 }
 
 .wellness__sauna-header {
     background-image: url(../../assets/infrared_sauna.jpg);
     position: relative;
-    /* background-position: top center; */
-    /* background-repeat: no-repeat; */
     background-size: cover;
     background-attachment: fixed;
     background-position: 50% 75%;
@@ -36,14 +33,16 @@
     flex-direction: column;
 }
 
-.wellness__sauna-info p {
-    color: black;
-    font-size: 1.2rem;
+.wellness__sauna-info-book {
+    padding-bottom: 2rem;
+    z-index: 1;
 }
 
-.wellness__sauna-info h1 {
-    font-size: 2rem;
-    text-decoration: underline;
+.wellness__sauna-info-book a {
+    border: var(--color-text) 0.2rem solid;
+    padding: 0.5rem;
+    color: var(--color-text);
+    font-size: 1.5rem;
 }
 
 .wellness__sauna-info-costs {
@@ -67,6 +66,14 @@
 .wellness__sauna-info-text h3 {
     padding: 1rem 0;
     font-size: 1.5rem;
+}
+
+.wellness__sauna-info-footer {
+    text-align: left;
+    margin: 2rem 5rem;
+    padding: 2rem;
+    border: 0.2rem solid var(--color-text);
+    background-color: rgba(16,81,166,0.4);
 }
 
 @supports (background-image: -webkit-image-set(url('../../assets/infrared_sauna.webp') 1x)) {
@@ -110,11 +117,5 @@
 @media screen and (max-width: 400px) {
     .wellness__sauna-header {
         background-position: 60%;
-    }
-    .wellness__sauna-info h1 {
-        font-size: 1.6rem;
-    }
-    .wellness__sauna-info p {
-        font-size: 1rem;
     }
 }

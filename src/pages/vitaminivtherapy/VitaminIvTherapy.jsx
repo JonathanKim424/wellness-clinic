@@ -10,7 +10,6 @@ function VitaminIvTherapy() {
             </div>
             <div className='wellness__iv-info'>
 			    <div className='wellness__iv-info_body'>
-                    <h1>IV Therapy and Vitamin Injections</h1>
                     <div className='wellness__iv-info_body-vitamins'>
                         <h2>Vitamin Bar</h2>
                         <h3>Our Blends:</h3>
@@ -177,19 +176,16 @@ function VitaminIvTherapy() {
                         </div>
                     </div>
                 </div>
-                <div className='wellness__iv-info_labs'>
-                    <h1>Labs</h1>
-                    <p>Basic labs</p>
-                    <p>Comprehensive lab with micronutrients</p>
-                </div>
                 <div className='wellness__iv-info_lower'>
-                    <p>We, at Circuit Works Wellness, want to ensure your safety with all our treatments. We require lab work (within the past 6 months) prior to receiving any IV therapy or vitamin injections. You are welcome to provide lab work done with your primary doctor/outside facility or you can schedule lab work to be done with us. If you want to schedule lab work, please click on the provided link below and come fasting (nothing to eat or drink except for water, coffee or tea without cream or sugar after midnight).</p>
-                    <h2>Why do I need lab work?</h2>
-                    <p>We want to make sure your body can support the amount of fluid you will receive and you are able to clear out byproducts normally. We may need to adjust the rate that you receive fluid based on your kidney function. It will allow us to determine what nutrients are safe to administer. It is also a great way to monitor your health progress!</p>
+                    <h1>FAQ</h1>
                     <h2>Why get IV therapy?</h2>
                     <p>There are several reasons to get IV therapy. One, it is the quickest way for your body to receive these nutrients. It is also more effective. Many vitamins lose much of their bioavailability when taken orally. Some may think that vitamins and nutrients are better to obtain through food, which can be true. However, these days the amount of micronutrients and vitamins in our crops have declined. Many may benefit from intravenous supplementation because their gut microbiome prevents adequate absorption of oral intake of nutrients.</p>
                     <h2>Is intravenous safe?</h2>
                     <p>There is a small risk given that it is a needle puncture. We follow sanitary procedures to minimize even the small risks. We never use expired products and assess our prepared bag and syringes for safety prior to administration.</p>
+                    <h2>How often should I get IV therapy?</h2>
+                    <p>We recommend no more than twice a week.</p>
+                    <h2>How long does it take?</h2>
+                    <p>Most of our IV bags take less than 30 minutes. If you are getting an extra hydration bag, it can take up to 45 minutes.</p>
                 </div>
             </div>
         </div>
