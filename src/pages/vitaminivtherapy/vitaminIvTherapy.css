@@ -20,6 +20,7 @@
     text-shadow: 1px 1px 4px black, 1px 1px 4px black, 1px 1px 4px black, 1px 1px 4px black;
     font-weight: 800;
     font-size: 3rem;
+    font-family: var(--font-logo);
     color: var(--color-primary);
     align-items: center;
 }

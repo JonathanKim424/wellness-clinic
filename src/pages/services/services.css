@@ -12,10 +12,6 @@
     padding: 0 10rem;
 }
 
-.wellness__services-services h1 {
-    text-decoration: underline;
-}
-
 .wellness__services-services-sauna_body {
     display: flex;
     width: 100%;
@@ -26,7 +22,7 @@
 }
 
 .wellness__services-services-iv {
-    padding-top: 2rem;
+    padding-top: 4rem;
 }
 
 .wellness__services-services-iv_body-content {
