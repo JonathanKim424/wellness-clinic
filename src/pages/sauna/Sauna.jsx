@@ -41,7 +41,7 @@ function Sauna() {
                         <p>The recommended use for infrared saunas can vary depending on individual needs and preferences. However, a general guideline is to start with 10 to 30 minutes at a time followed by 1-3 minutes in the cold plunge.  Alternately start your session in the infrared sauna and end your last 2-5 minutes in the cold plunge.  It's important to stay well-hydrated before, during, and after each session to support the body's detoxification process. The frequency of our sauna to cold plunge sessions can vary but starting with 2 to 3 sessions per week is a good initial approach. However, it's always recommended to consult with a healthcare professional if you have any pre-existing medical conditions or concerns before incorporating regular infrared sauna and cold plunge use into your wellness routine.</p>
                     </div>
                     <div className='wellness__sauna-info-text_content'>
-                        <p>Our infrared sauna access is by 30-minute appointements only. Simply click on teh Book Now button to schedule your 30-minute sessions.</p>
+                        <p>Our infrared sauna access is by 30-minute appointements only. Simply click on the Book Now button to schedule your 30-minute sessions.</p>
                     </div>
                     <div className='wellness__sauna-info-text_content'>
                         <h2>HOW TO PREPARE</h2>
