@@ -1,21 +1,6 @@
-.wellness__contact {
-    background-color: var(--color-primary);
-}
-
 .wellness__contact-header {
     padding: 2rem 6rem;
     margin: 0 3rem;
-}
-
-.wellness__contact-header h1 {
-    padding-bottom: 2rem;
-}
-
-.wellness__contact-header-book a {
-    border: var(--color-text) 0.2rem solid;
-    padding: 0.5rem;
-    color: var(--color-text);
-    font-size: 1.5rem;
 }
 
 .wellness__contact-info {
@@ -101,7 +86,7 @@
     }
     .wellness__contact-info-text {
         text-align: left;
-        padding: 0;
+        padding: 1rem 0 0 0;
     }
 }
 
@@ -109,10 +94,8 @@
     .wellness__contact-header {
         padding: 1.5rem 1rem;
     }
-}
-
-@media screen and (max-width: 412px) {
     .wellness__contact-info-text {
-        width: 55%;
+        width: auto;
+        max-width: 90vw;
     }
 }

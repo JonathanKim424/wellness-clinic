@@ -6,7 +6,7 @@ const Footer = () => {
     return (
         <div className='wellness__footer'>
             <div className='wellness__footer-icons'>
-                <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer"><BsInstagram /></a>
+                <a href="https://www.instagram.com/circuitworkswellness/" target="_blank" rel="noopener noreferrer"><BsInstagram /></a>
                 <a href="https://www.facebook.com/CircuitWorks" target="_blank" rel="noopener noreferrer"><BsFacebook /></a>
             </div>
             <div className='wellness__footer-copyright'>

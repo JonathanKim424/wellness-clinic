@@ -28,8 +28,8 @@ function HomeServicesRight(props) {
                     <ImgWithFallback src={src} fallback={fallback} alttag={alttag} />
                 </Link>
                 {imgtag && (
-                    <div>
-                        <a href="https://www.freepik.com/free-photo/cosmetic-botox-injection-forehead_26673066.htm#page=2&query=botox&position=2&from_view=keyword&track=sph">Image by ArtPhoto_studio</a> on Freepik 
+                    <div className='wellness__homeServicesRight-img_tag'>
+                        <a href="https://www.freepik.com/free-photo/cosmetic-botox-injection-forehead_26673066.htm#page=2&query=botox&position=2&from_view=keyword&track=sph" target="_blank" rel="noopener noreferrer">Image by ArtPhoto_studio</a> on Freepik 
                     </div>
                 )}
             </div>

@@ -1,8 +1,22 @@
-import React, { useLayoutEffect } from 'react';
+import React from 'react';
 import './vitaminIvTherapy.css';
+import { BookButton, Faq } from '../../components';
 
 function VitaminIvTherapy() {
-    useLayoutEffect(() => window.scrollTo(0,0));
+    const data = {
+        questions: [
+            "Why get IV therapy?",
+            "Is intravenous safe?",
+            "How often should I get IV therapy?",
+            "How long does it take?"
+        ],
+        answers: [
+            "There are several reasons to get IV therapy. One, it is the quickest way for your body to receive these nutrients. It is also more effective. Many vitamins lose much of their bioavailability when taken orally. Some may think that vitamins and nutrients are better to obtain through food, which can be true. However, these days the amount of micronutrients and vitamins in our crops have declined. Many may benefit from intravenous supplementation because their gut microbiome prevents adequate absorption of oral intake of nutrients.",
+            "There is a small risk given that it is a needle puncture. We follow sanitary procedures to minimize even the small risks. We never use expired products and assess our prepared bag and syringes for safety prior to administration.",
+            "We recommend no more than twice a week.",
+            "Most of our IV bags take less than 30 minutes. If you are getting an extra hydration bag, it can take up to 45 minutes."
+        ]
+    };
     return (
         <div className='wellness__iv'>
             <div className='wellness__iv-header'>
@@ -176,18 +190,11 @@ function VitaminIvTherapy() {
                         </div>
                     </div>
                 </div>
-                <div className='wellness__iv-info_lower'>
-                    <h1>FAQ</h1>
-                    <h2>Why get IV therapy?</h2>
-                    <p>There are several reasons to get IV therapy. One, it is the quickest way for your body to receive these nutrients. It is also more effective. Many vitamins lose much of their bioavailability when taken orally. Some may think that vitamins and nutrients are better to obtain through food, which can be true. However, these days the amount of micronutrients and vitamins in our crops have declined. Many may benefit from intravenous supplementation because their gut microbiome prevents adequate absorption of oral intake of nutrients.</p>
-                    <h2>Is intravenous safe?</h2>
-                    <p>There is a small risk given that it is a needle puncture. We follow sanitary procedures to minimize even the small risks. We never use expired products and assess our prepared bag and syringes for safety prior to administration.</p>
-                    <h2>How often should I get IV therapy?</h2>
-                    <p>We recommend no more than twice a week.</p>
-                    <h2>How long does it take?</h2>
-                    <p>Most of our IV bags take less than 30 minutes. If you are getting an extra hydration bag, it can take up to 45 minutes.</p>
+                <div className='wellness__iv-info_book'>
+                    <BookButton />
                 </div>
             </div>
+            <Faq faqdata={ data } />
         </div>
     )
 }

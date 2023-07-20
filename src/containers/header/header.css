@@ -19,7 +19,7 @@
     color: var(--color-heading);
 }
 
-.wellness__header-text_h1 {
+.wellness__header-text_heading {
     font-family: var(--font-logo);
     position: absolute;
     text-align: center;
@@ -28,7 +28,7 @@
     font-size: 3.8rem;
 }
 
-.wellness__header-text_h3 {
+.wellness__header-text_sub {
     position: absolute;
     text-align: center;
     width: 100%;
@@ -45,37 +45,43 @@
     }
 }
 
+@media screen and (max-width: 1050px) {
+    .wellness__header-text_sub {
+        top: 50%;
+    }
+}
+
 @media screen and (max-width: 900px) {
-    .wellness__header-text_h1 {
+    .wellness__header-text_heading {
         font-size: 3rem;
     }
-    .wellness__header-text_h3 {
+    .wellness__header-text_sub {
         font-size: 1.5rem;
     }
 }
 
 @media screen and (max-width: 550px) {
-    .wellness__header-text_h1 {
-        font-size: 2.8rem;
+    .wellness__header-text_heading {
+        font-size: 2.5rem;
         padding: 0 1rem;
     }
-    .wellness__header-text_h3 {
+    .wellness__header-text_sub {
         font-size: 1.3rem;
-        top: 50%;
     }
 }
 
 @media screen and (max-width: 400px) {
-    .wellness__header-text_h1 {
-        font-size: 2.5rem;
-    }
-    .wellness__header-text_h3 {
+    .wellness__header-text_sub {
         font-size: 1.2rem;
+        top: 55%;
     }
 }
 
 @media screen and (max-width: 350px) {
-    .wellness__header-text_h1 {
+    .wellness__header-text_heading {
         font-size: 1.9rem;
+    }
+    .wellness__header-text_sub {
+        top: 50%;
     }
 }

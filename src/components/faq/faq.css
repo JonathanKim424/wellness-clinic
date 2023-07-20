@@ -1,0 +1,18 @@
+.wellness__faq {
+    text-align: left;
+    justify-content: center;
+    max-width: 80vw;
+    padding: 2rem;
+    border: 0.2rem solid black;
+    background-color: rgba(16,81,166,0.4);
+}
+
+.wellness__faq_text {
+    padding-bottom: 1rem;
+}
+
+@media screen and (max-width: 1050px) {
+    .wellness__faq {
+        max-width: 90vw;
+    }
+}

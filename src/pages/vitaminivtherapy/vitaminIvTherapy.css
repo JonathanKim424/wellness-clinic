@@ -1,5 +1,9 @@
 .wellness__iv {
     align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 2rem;
 }
 
 .wellness__iv-header {
@@ -29,12 +33,11 @@
     display: flex;
     flex-direction: column;
     text-align: left;
-    padding: 2rem 20rem;
-    color: var(--color-text);
+    padding: 2rem 1rem;
+    max-width: 80vw;
 }
 
 .wellness__iv-info_body-content {
-    /* border: 0.15rem solid var(--color-text); */
     padding: 0.5rem;
     padding-bottom: 1rem;
 }
@@ -71,15 +74,9 @@
     width: 50%;
 }
 
-.wellness__iv-info_lower {
-    margin: 2rem 5rem;
-    padding: 2rem;
-    border: 0.2rem solid black;
-    background-color: rgba(16,81,166,0.4);
-}
-
-.wellness__iv-info_lower p {
-    padding-bottom: 1rem;
+.wellness__iv-info_book {
+    text-align: center;
+    padding-top: 2rem;
 }
 
 @supports (background-image: -webkit-image-set(url('../../assets/iv_therapy.webp') 1x)) {
@@ -90,33 +87,9 @@
     }
 }
 
-@media screen and (max-width: 1500px) {
-    .wellness__iv-info {
-        padding: 2rem 14rem;
-    }
-}
-
-@media screen and (max-width: 1300px) {
-    .wellness__iv-info {
-        padding: 2rem 6rem;
-    }
-}
-
 @media screen and (max-width: 1050px) {
     .wellness__iv-info {
-        padding: 2rem 2rem;
-    }
-    .wellness__iv-info_lower {
-        margin: 2rem 2rem;
-    }
-}
-
-@media screen and (max-width: 950px) {
-    .wellness__iv-info {
-        padding: 2rem 1rem;
-    }
-    .wellness__iv-info_lower {
-        margin: 2rem 1rem;
+        max-width: 90vw;
     }
 }
 
@@ -141,9 +114,6 @@
         display: flex;
         width: 100%;
     }
-    .wellness__iv-info_lower {
-        margin: 2rem 0;
-    }
 }
 
 @media screen and (max-width: 400px) {
@@ -153,12 +123,6 @@
     .wellness__iv-header h1 {
         font-size: 2rem;
         padding: 0 1rem;
-    }
-    .wellness__iv-info h2 {
-        font-size: 1.3rem;
-    }
-    .wellness__iv-info_lower {
-        padding: 1.5rem 0.5rem;
     }
 }
 

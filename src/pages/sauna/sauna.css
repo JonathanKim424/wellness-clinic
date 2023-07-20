@@ -1,5 +1,9 @@
 .wellness__sauna {
     align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 2rem;
 }
 
 .wellness__sauna-header {
@@ -26,28 +30,14 @@
 }
 
 .wellness__sauna-info {
-    padding: 2rem 10rem;
-    width: 100%;
-    color: var(--color-text);
     display: flex;
-    justify-content: center;
     flex-direction: column;
-}
-
-.wellness__sauna-info-book {
-    padding-bottom: 2rem;
-    z-index: 1;
-}
-
-.wellness__sauna-info-book a {
-    border: var(--color-text) 0.2rem solid;
-    padding: 0.5rem;
-    color: var(--color-text);
-    font-size: 1.5rem;
+    padding: 2rem 1rem;
+    max-width: 80vw;
 }
 
 .wellness__sauna-info-costs {
-    padding: 0.5rem 0;
+    padding: 1rem 0;
     display: flex;
     justify-content: space-evenly;
 }
@@ -61,20 +51,12 @@
 }
 
 .wellness__sauna-info-text {
+    padding-top: 1rem;
     text-align: left;
 }
 
-.wellness__sauna-info-text h3 {
-    padding: 1rem 0;
-    font-size: 1.5rem;
-}
-
-.wellness__sauna-info-footer {
-    text-align: left;
-    margin: 2rem 5rem;
-    padding: 2rem;
-    border: 0.2rem solid var(--color-text);
-    background-color: rgba(16,81,166,0.4);
+.wellness__sauna-info-text_content {
+    padding-bottom: 2rem;
 }
 
 @supports (background-image: -webkit-image-set(url('../../assets/infrared_sauna.webp') 1x)) {
@@ -89,8 +71,11 @@
     .wellness__sauna-header {
         background-position: 100% 100%;
     }
+}
+
+@media screen and (max-width: 1050px) {
     .wellness__sauna-info {
-        padding: 2rem 1.5rem;
+        max-width: 90vw;
     }
 }
 
@@ -99,13 +84,20 @@
         background-position: 100% 200%;
     }
     .wellness__sauna-info-costs {
-        flex-direction: column;
+        display: block;
+        padding: 0.5rem 12rem;
     }
-    .wellness__sauna-info-costs_left {
-        text-align: center;
+}
+
+@media screen and (max-width: 900px) {
+    .wellness__sauna-info-costs {
+        padding: 0.5rem 7rem;
     }
-    .wellness__sauna-info-costs_right {
-        text-align: center;
+}
+
+@media screen and (max-width: 750px) {
+    .wellness__sauna-info-costs {
+        padding: 0.5rem 2.5rem;
     }
 }
 
@@ -115,8 +107,24 @@
     }
 }
 
+@media screen and (max-width: 600px) {
+    .wellness__sauna-info-costs {
+        padding: 0.5rem 0;
+    }
+}
+
 @media screen and (max-width: 400px) {
     .wellness__sauna-header {
         background-position: 60%;
+    }
+    .wellness__sauna-header h1 {
+        font-size: 2rem;
+        padding: 0 1rem;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .wellness__sauna-header h1 {
+        font-size: 1.9rem;
     }
 }

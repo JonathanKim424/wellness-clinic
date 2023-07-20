@@ -1,5 +1,9 @@
 .wellness__coldplunge {
     align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 2rem;
 }
 
 .wellness__coldplunge-header {
@@ -26,26 +30,14 @@
 }
 
 .wellness__coldplunge-info {
-    padding: 2rem 10rem;
-    width: 100%;
     display: flex;
     flex-direction: column;
-}
-
-.wellness__coldplunge-info-book {
-    padding-bottom: 2rem;
-    z-index: 1;
-}
-
-.wellness__coldplunge-info-book a {
-    border: var(--color-text) 0.2rem solid;
-    padding: 0.5rem;
-    color: var(--color-text);
-    font-size: 1.5rem;
+    padding: 2rem 1rem;
+    max-width: 80vw;
 }
 
 .wellness__coldplunge-info-costs {
-    padding: 0.5rem 0;
+    padding: 1rem 0;
     display: flex;
     justify-content: space-evenly;
 }
@@ -63,21 +55,8 @@
     text-align: left;
 }
 
-.wellness__coldplunge-info-text h3 {
-    padding: 1rem 0;
-    font-size: 1.5rem;
-}
-
-.wellness__coldplunge-info-text h4 {
-    font-size: 1.2rem;
-}
-
-.wellness__coldplunge-info-footer {
-    text-align: left;
-    margin: 2rem 5rem;
-    padding: 2rem;
-    border: 0.2rem solid var(--color-text);
-    background-color: rgba(16,81,166,0.4);
+.wellness__coldplunge-info-text_content {
+    padding-bottom: 2rem;
 }
 
 @supports (background-image: -webkit-image-set(url('../../assets/cold_lunge.webp') 1x)) {
@@ -92,15 +71,15 @@
     .wellness__coldplunge-header {
         background-position: 100%;
     }
+}
+
+@media screen and (max-width: 1050px) {
     .wellness__coldplunge-info {
-        padding: 2rem 5rem;
+        max-width: 90vw;
     }
 }
 
 @media screen and (max-width: 950px) {
-    .wellness__coldplunge-info {
-        padding: 2rem 2rem;
-    }
     .wellness__coldplunge-info-costs {
         display: block;
         padding: 0.5rem 12rem;
@@ -126,10 +105,14 @@
 }
 
 @media screen and (max-width: 400px) {
-    .wellness__coldplunge-info {
-        padding: 2rem 1.5rem;
+    .wellness__coldplunge-header h1 {
+        font-size: 2rem;
+        padding: 0 1rem;
     }
-    .wellness__coldplung-info h3 {
-        font-size: 1.4rem;
+}
+
+@media screen and (max-width: 300px) {
+    .wellness__coldplunge-header h1 {
+        font-size: 1.9rem;
     }
 }
