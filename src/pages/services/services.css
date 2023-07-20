@@ -1,3 +1,10 @@
+.wellness__services {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .wellness__services-header {
     padding: 2rem 0;
 }
@@ -8,17 +15,11 @@
 }
 
 .wellness__services-services {
-    text-align: left;
-    padding: 0 10rem;
-}
-
-.wellness__services-services-sauna_body {
     display: flex;
-    width: 100%;
-}
-
-.wellness__services-services-sauna_body-left {
-    padding-right: 5rem;
+    flex-direction: column;
+    text-align: left;
+    padding: 2rem 1rem;
+    max-width: 80vw;
 }
 
 .wellness__services-services-iv {
@@ -26,10 +27,8 @@
 }
 
 .wellness__services-services-iv_body-content {
-    /* border: 0.15rem solid black; */
     padding: 0.5rem;
-    padding-bottom: 2rem;
-    width: 70%;
+    padding-bottom: 1rem;
 }
 
 .wellness__services-services-iv_body-content_header {
@@ -46,9 +45,13 @@
     text-align: right;
 }
 
+.wellness__services-services-iv_body-content_footer {
+    padding-top: 0.5rem;
+    padding-bottom: 2rem;
+}
+
 .wellness__services-services-iv_body-content_footer-body {
     display: flex;
-    padding-bottom: 4rem;
     width: 30rem;
 }
 
@@ -60,62 +63,30 @@
     width: 50%;
 }
 
-.wellness__services-services-iv_footer {
-    padding: 2rem 0;
-}
-
-.wellness__services-services-iv_footer-book {
-    width: 100%;
-    text-align: center;
-    padding: 2rem 0;
-}
-
-.wellness__services-services-iv_footer-book a {
-    border: var(--color-text) 0.2rem solid;
-    padding: 0.5rem;
-    color: var(--color-text);
-    font-size: 1.5rem;
-}
-
-.wellness__services-services-iv_footer-book a:hover {
-    background-color: #c8c8c8;
-    border-color: black;
-    color: black;
-}
-
-.wellness__services-services-labs {
-    padding: 2rem 0;
-}
-
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1050px) {
     .wellness__services-services {
-        padding: 0 5rem;
+        max-width: 90vw;
     }
-    .wellness__services-services-iv_body-content {
+}
+
+@media screen and (max-width: 500px) {
+    .wellness__services-header h1 {
+        font-size: 2rem;
+    }
+    .wellness__services-services {
+        max-width: 95vw;
+    }
+    .wellness__services-services h1 {
+        font-size: 1.6rem;
+    }
+    .wellness__services-services-iv_body-content_footer-body {
+        display: flex;
         width: 100%;
     }
 }
 
-@media screen and (max-width: 550px) {
-    .wellness__services h1 {
-        font-size: 1.5rem;
-    }
-    .wellness__services-services {
-        padding: 0 2.5rem;
-    }
-    .wellness__services-services-sauna_body-left {
-        padding-right: 0;
-    }
-}
-
-@media screen and (max-width: 450px) {
-    .wellness__services-services {
-        padding: 0 2rem;
-    }
-}
-
-@media screen and (max-width: 400px) {
-    .wellness__services-services {
-        padding: 0 1rem;
+@media screen and (max-width: 300px) {
+    .wellness__services-header h1 {
+        font-size: 1.8rem;
     }
 }

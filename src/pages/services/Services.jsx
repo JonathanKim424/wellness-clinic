@@ -11,17 +11,10 @@ function Services() {
             <div className='wellness__services-services'>
                 <div className='wellness__services-services-suana'>
                     <h1>Infrared Sauna and Cold Plunge</h1>
-                    <div className='wellness__services-services-sauna_body'>
-                        <div className='wellness__services-services-sauna_body-left'>
-                            <p>Infrared therapy and cold plunge</p>
-                        </div>
-                        <div className='wellness__services-services-sauna_body-right'>
-                            <p>$25 for 30 minutes for members</p>
-                            <p>$30 for 30 minutes for non-members</p>
-                            <p>$230 package of ten 30 min sessions for members</p>
-                            <p>$270 package of ten 30 min sessions for non-members</p>
-                        </div>
-                    </div>
+                    <p>$25 for 30 minutes for members</p>
+                    <p>$30 for 30 minutes for non-members</p>
+                    <p>$230 package of ten 30 min sessions for members</p>
+                    <p>$270 package of ten 30 min sessions for non-members</p>
                 </div>
                 <div className='wellness__services-services-iv'>
                     <div className='wellness__services-services-iv_header'>
