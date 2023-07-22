@@ -28,26 +28,11 @@
 
 .wellness__services-services-iv_body-content {
     padding: 0.5rem;
-    padding-bottom: 1rem;
-}
-
-.wellness__services-services-iv_body-content_header {
-    display: flex;
-    width: 100%;
-}
-
-.wellness__services-services-iv_body-content_header-left {
-    width: 75%;
-}
-
-.wellness__services-services-iv_body-content_header-right {
-    width: 25%;
-    text-align: right;
+    padding-bottom: 2rem;
 }
 
 .wellness__services-services-iv_body-content_footer {
-    padding-top: 0.5rem;
-    padding-bottom: 2rem;
+    padding-top: 1.5rem;
 }
 
 .wellness__services-services-iv_body-content_footer-body {
