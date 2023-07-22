@@ -41,7 +41,7 @@
 .wellness__navbar-menu_container span {
     color: var(--color-text);
     font-family: var(--font-family);
-    font-weight: 900;
+    /* font-weight: 900; */
     font-size: 20px;
     line-height: 25px;
     text-transform: capitalize;

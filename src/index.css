@@ -12,7 +12,8 @@
 
 :root {
   --font-family: 'Raleway', sans-serif;
-  --font-logo: 'MarcellusSC', serif;
+  /* --font-logo: 'MarcellusSC', serif; */
+  --font-logo: 'Raleway', sans-serif;
   
   --color-primary: #FFFFFF;
   --color-secondary: #1051A6E8;

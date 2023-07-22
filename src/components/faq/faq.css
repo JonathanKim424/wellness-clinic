@@ -11,6 +11,10 @@
     padding-bottom: 1rem;
 }
 
+.wellness__faq_text p {
+    font-size: 1rem;
+}
+
 @media screen and (max-width: 1050px) {
     .wellness__faq {
         max-width: 90vw;

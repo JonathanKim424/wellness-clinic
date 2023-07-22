@@ -21,10 +21,10 @@ const ListCheck = (props) => {
 function Faq(props) {
     return (
         <div className='wellness__faq'>
-            <h1>FAQ</h1>
+            <h2>FAQ</h2>
             {props.faqdata.questions.map((e, i) =>
                 <div className='wellness__faq_text' key={i}>
-                    <h2>{e}</h2>
+                    <h3>{e}</h3>
                     <ListCheck
                         index={i}
                         faqdata={props.faqdata}

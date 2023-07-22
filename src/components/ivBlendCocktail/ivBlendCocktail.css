@@ -1,0 +1,12 @@
+.wellness__ivblendcocktail {
+    display: flex;
+}
+
+.wellness__ivblendcocktail-left {
+    width: 80%;
+}
+
+.wellness__ivblendcocktail-right {
+    width: 20%;
+    text-align: right;
+}

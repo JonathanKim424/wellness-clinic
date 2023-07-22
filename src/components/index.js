@@ -5,3 +5,4 @@ export { default as GMap } from './gMap/GMap';
 export { default as ImgWithFallback } from './imgWithFallback/ImgWithFallback';
 export { default as BookButton } from './bookButton/BookButton';
 export { default as Faq } from './faq/Faq';
+export { default as IvBlendCocktail } from './ivBlendCocktail/IvBlendCocktail';
