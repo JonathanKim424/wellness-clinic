@@ -8,7 +8,10 @@ import { Homepage, Sauna, ColdPlunge, VitaminIvTherapy, Contact, About } from '.
 function App() {
   return (
     <Router>
-      <div className='App'>
+      <div>
+        Under Construction
+      </div>
+      {/* <div className='App'>
         <div className='gradient__bg'>
           <Navbar />
         </div>
@@ -23,7 +26,7 @@ function App() {
         <div className='gradient__bg'>
           <Footer />
         </div>
-      </div>
+      </div> */}
     </Router>
   );
 }
